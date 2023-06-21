@@ -1,1 +1,3 @@
- # TEAM "SWIFT-FERRET"
+# TEAM "SWIFT-FERRET"
+
+Проект автоматизированной системы рекрутинга для компании Simpl
