@@ -2,3 +2,49 @@
 @import '_variables.css';
 @import 'normalize.css';
 @import 'nullstyle.css';
+
+/*/ ///////////////////////////////////////*/
+/*/////////////////служебное//////////////*/
+/*/ ///////////////////////////////////////*/
+
+body {
+  background-color: var(--color-light);
+  font-family: 'Nunito';
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--color-dark);
+}
+
+.container {
+  max-width: 1350px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.main {
+  padding-top: 120px;
+  padding-bottom: 40px;
+}
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__center-part {
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
