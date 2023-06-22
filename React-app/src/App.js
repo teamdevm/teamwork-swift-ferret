@@ -1,4 +1,6 @@
 import React from 'react';
+import './assets/css/App.css';
+
 import logo from './assets/img/logo.png';
 import cand1 from './assets/img/candidate (1).jpg';
 import cand2 from './assets/img/candidate (2).jpg';
