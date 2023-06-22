@@ -10,6 +10,8 @@ import cand7 from './assets/img/candidate (7).jpg';
 import cand8 from './assets/img/candidate (8).jpg';
 
 function App() {
+  return (
+    <div>
       <header className="header">
         <div className="header__container container">
           <div className="header__logo logo">
@@ -39,6 +41,8 @@ function App() {
         </div>
       </header>
 
+      <main className="main">
+        <div className="main__container container">
           <section className="main__settings">
             <div className="main__find-count">Найдено: 13</div>
             <div className="main__select">
@@ -98,6 +102,7 @@ function App() {
               </ul>
             </div>
           </section>
+          <div className="main__center-part">
             <section className="main__filter filter">
               <h2 className="filter__title">Фильтры</h2>
               <form className="filter__form">
@@ -1238,6 +1243,11 @@ function App() {
                 </div>
               </div>
             </section>
+          </div>
+        </div>
+      </main>
+    </div>
+  );
 }
 
 export default App;
