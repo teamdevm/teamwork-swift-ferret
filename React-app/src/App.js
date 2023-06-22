@@ -1,5 +1,13 @@
 import React from 'react';
 import logo from './assets/img/logo.png';
+import cand1 from './assets/img/candidate (1).jpg';
+import cand2 from './assets/img/candidate (2).jpg';
+import cand3 from './assets/img/candidate (3).jpg';
+import cand4 from './assets/img/candidate (4).jpg';
+import cand5 from './assets/img/candidate (5).jpg';
+import cand6 from './assets/img/candidate (6).jpg';
+import cand7 from './assets/img/candidate (7).jpg';
+import cand8 from './assets/img/candidate (8).jpg';
 
 function App() {
       <header className="header">
