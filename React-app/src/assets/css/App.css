@@ -345,3 +345,116 @@ svg.rotated {
 .filter__button:hover {
   background-color: #ff6060;
 }
+
+/* //////////////////////////////////////// */
+/* ///////////////карточки///////////////// */
+/* //////////////////////////////////////// */
+
+.candidate-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: start;
+  gap: 25px 20px;
+}
+
+.main__title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  opacity: 0.5;
+  text-align: center;
+  font-size: 18px;
+}
+
+.candidate-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 220px;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 14px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.candidate-card__info {
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 12px;
+}
+
+.candidate-card:hover {
+  border-color: var(--color-accent);
+}
+
+.candidate-card__img {
+  width: 60%;
+  height: auto;
+  display: block;
+  border-radius: 100%;
+}
+
+.candidate-card__name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.candidate-card__status {
+  color: var(--color-accent);
+}
+
+.candidate-card__contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 8px;
+}
+
+.candidate-card__mail,
+.candidate-card__phone {
+  display: flex;
+  align-items: center;
+  color: inherit;
+  column-gap: 8px;
+  transition: color 0.3s ease-in-out;
+}
+
+.candidate-card__mail:hover,
+.candidate-card__phone:hover {
+  color: var(--color-accent);
+}
+
+.candidate-card__mail svg,
+.candidate-card__phone svg {
+  max-width: 16px;
+}
+
+.candidate-card__label {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+  margin-top: 28px;
+}
+
+/* .candidate-card a {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  background-color: var(--color-accent);
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.candidate-card a:hover {
+  background-color: #0062cc;
+} */
