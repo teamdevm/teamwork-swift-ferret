@@ -15,7 +15,7 @@ function Header() {
             <Link to="/">
               <li className="nav__item nav__item--active">Все резюме</li>
             </Link>
-            <Link to="/download">
+            <Link to="/upload">
               <li className="nav__item">Загрузить резюме</li>
             </Link>
             <Link to="/sign-in">
