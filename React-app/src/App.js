@@ -4,7 +4,8 @@ import { Routes, Route } from 'react-router-dom';
 import './assets/css/App.css';
 
 import { Header } from './components/index.js';
-import { Home, SignIn } from './pages/index.js';
+
+import { Home, SignIn, Upload } from './pages/index.js';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Routes>
         <Route exact path="/" element={<Home />} />
+        <Route exact path="/upload" element={<Upload />} />
         <Route exact path="/sign-in" element={<SignIn />} />
       </Routes>
     </div>
