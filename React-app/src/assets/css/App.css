@@ -85,7 +85,7 @@ svg {
   font-weight: bold;
   transition: color 0.3s ease-in-out;
 }
-.nav__item--active {
+.nav__item.active {
   color: var(--color-accent);
   margin-left: 20px;
 }
@@ -193,7 +193,7 @@ svg.rotated {
   z-index: 3;
 }
 
-.sort__list--hidden {
+.sort__list.hidden {
   display: none;
 }
 
@@ -205,7 +205,7 @@ svg.rotated {
 .sort__item:hover {
   background: #fff1f1;
 }
-.sort__item--active {
+.sort__item.active {
   font-weight: 700;
   color: var(--color-accent);
 }
@@ -294,7 +294,7 @@ svg.rotated {
   display: none;
 }
 
-.filter__content--visible {
+.filter__content.visible {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -547,7 +547,7 @@ svg.rotated {
   z-index: -10;
 }
 
-.upload--dragover {
+.upload.dragover {
   background-color: #fff;
 }
 
