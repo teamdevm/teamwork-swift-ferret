@@ -640,3 +640,72 @@ a.contacts__item:hover {
   font-weight: 700;
   font-size: 32px;
 }
+
+/* ///////////////hiring/////////////////// */
+
+.resume__hiring {
+  display: flex;
+  align-items: start;
+  column-gap: 80px;
+}
+
+.popup-status {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-status__title {
+  display: flex;
+  column-gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+.popup-status__title svg {
+  max-width: 20px;
+}
+
+.popup-status__title:hover {
+  color: var(--color-accent);
+}
+
+.popup-status__list {
+  position: absolute;
+  display: flex;
+  padding: 10px 0;
+  top: 36px;
+  left: 30px;
+  flex-direction: column;
+  background-color: var(--color-light);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+  z-index: 10;
+}
+
+.popup-status__list.hidden {
+  display: none;
+}
+
+.popup-status__item {
+  padding: 10px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.popup-status__item:hover {
+  background-color: #fff1f1;
+}
+
+.recruter-card {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.recruter-card__photo {
+  max-width: 60px;
+  border-radius: 100%;
+}
