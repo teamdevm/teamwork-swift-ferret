@@ -614,6 +614,28 @@ a.contacts__item:hover {
 /* /////////////////профиль///////////////// */
 /* ///////////////////////////////////////// */
 
+
+/* ///////////////sosial/////////////////// */
+
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 20px;
+  margin-top: 20px;
+}
+
+.social__item img {
+  max-width: 36px;
+}
+
+.social__item {
+  transition: transform 0.3s ease-in-out;
+}
+
+.social__item:hover {
+  transform: scale(1.1);
+}
+
 /* ///////////////top-block/////////////////// */
 
 .resume__top-block {
