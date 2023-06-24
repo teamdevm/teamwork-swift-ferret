@@ -6,7 +6,7 @@ function Upload() {
       <div className="main__container container">
         <form className="main__upload upload" id="upload-container" method="POST" action="send.php">
           <input className="upload__input" id="file-input" type="file" name="file" multiple />
-          <label className="upload__btn" for="file-input">
+          <label className="upload__btn" htmlFor="file-input">
             <svg
               className="upload__svg"
               id="upload-image"
@@ -19,7 +19,6 @@ function Upload() {
               strokeWidth="1.5"
               strokeLinecap="round"
               strokeLinejoin="round"
-              class="lucide lucide-upload"
             >
               <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
               <polyline points="17 8 12 3 7 8" />
@@ -47,7 +46,7 @@ function Upload() {
                     strokeWidth="1.5"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    class="lucide lucide-x-circle"
+                    className="lucide lucide-x-circle"
                   >
                     <circle cx="12" cy="12" r="10" />
                     <path d="m15 9-6 6" />
@@ -71,7 +70,7 @@ function Upload() {
                     strokeWidth="1.5"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    class="lucide lucide-x-circle"
+                    className="lucide lucide-x-circle"
                   >
                     <circle cx="12" cy="12" r="10" />
                     <path d="m15 9-6 6" />
@@ -96,7 +95,7 @@ function Upload() {
                     strokeWidth="1.5"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    class="lucide lucide-x-circle"
+                    className="lucide lucide-x-circle"
                   >
                     <circle cx="12" cy="12" r="10" />
                     <path d="m15 9-6 6" />
