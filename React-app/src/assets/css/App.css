@@ -370,7 +370,6 @@ svg.rotated {
   justify-content: space-between;
   width: 220px;
   padding: 10px;
-  cursor: pointer;
   border: 1px solid #ccc;
   border-radius: 5px;
   overflow: hidden;
@@ -381,7 +380,6 @@ svg.rotated {
 
 .candidate-card__info {
   display: flex;
-  cursor: pointer;
   flex-direction: column;
   align-items: center;
   row-gap: 12px;
@@ -392,6 +390,8 @@ svg.rotated {
 }
 
 .candidate-card__img {
+  cursor: pointer;
+  margin: 0 auto;
   width: 60%;
   height: auto;
   display: block;
@@ -407,15 +407,19 @@ svg.rotated {
   color: var(--color-accent);
 }
 
-.candidate-card__contacts {
+.contacts {
   display: flex;
   flex-direction: column;
+  align-items: start;
+  row-gap: 16px;
+}
+
+.candidate-card__contacts {
   align-items: center;
   row-gap: 8px;
 }
 
-.candidate-card__mail,
-.candidate-card__phone {
+.contacts__item {
   display: flex;
   align-items: center;
   color: inherit;
@@ -423,14 +427,16 @@ svg.rotated {
   transition: color 0.3s ease-in-out;
 }
 
-.candidate-card__mail:hover,
-.candidate-card__phone:hover {
+a.contacts__item:hover {
   color: var(--color-accent);
 }
 
-.candidate-card__mail svg,
-.candidate-card__phone svg {
+.candidate-card__contacts .contacts__item svg {
   max-width: 16px;
+}
+
+.contacts__item svg {
+  max-width: 20px;
 }
 
 .candidate-card__label {
