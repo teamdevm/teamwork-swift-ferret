@@ -25,7 +25,7 @@ function Profile() {
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
-            class="lucide lucide-chevron-left"
+            className="lucide lucide-chevron-left"
           >
             <polyline points="15 18 9 12 15 6" />
           </svg>
@@ -174,7 +174,7 @@ function Profile() {
                     strokeWidth="1.5"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    class="lucide lucide-building-2"
+                    className="lucide lucide-building-2"
                   >
                     <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z" />
                     <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2" />
@@ -260,10 +260,10 @@ function Profile() {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="lucide lucide-x-circle"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="lucide lucide-x-circle"
                 >
                   <circle cx="12" cy="12" r="10" />
                   <path d="m15 9-6 6" />
@@ -279,10 +279,10 @@ function Profile() {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="lucide lucide-file-input"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="lucide lucide-file-input"
                 >
                   <path d="M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v4" />
                   <polyline points="14 2 14 8 20 8" />
