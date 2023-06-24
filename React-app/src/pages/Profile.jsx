@@ -31,6 +31,9 @@ function Profile() {
           </svg>
           <span>назад к списку резюме</span>
         </Link>
+
+        <section className="main__resume resume">
+          <div className="resume__row">
             <div className="resume__top-block">
               <img className="resume__photo" src={cand6} />
               <div className="resume__main-info">
@@ -84,6 +87,7 @@ function Profile() {
                 </div>
               </div>
             </div>
+            <div className="resume__bottom-block">
               <div className="resume__info resume__info--short">
                 <h3 className="resume__title">Стек технологий</h3>
                 <ul className="resume__skills skills">
@@ -153,6 +157,9 @@ function Profile() {
                   </li>
                 </ul>
               </div>
+            </div>
+          </div>
+          <div className="resume__row">
             <div className="resume__contacts">
               <h3 className="resume__title">Контакты</h3>
               <div className="contacts">
@@ -285,6 +292,8 @@ function Profile() {
                 Выгрузить отчёт
               </button>
             </div>
+          </div>
+        </section>
       </div>
     </main>
   );
