@@ -31,6 +31,59 @@ function Profile() {
           </svg>
           <span>назад к списку резюме</span>
         </Link>
+            <div className="resume__top-block">
+              <img className="resume__photo" src={cand6} />
+              <div className="resume__main-info">
+                <p className="resume__name">Сергеев Игнат Витальевич</p>
+                <p className="resume__vacancy">Разработчик IOS / разработчик Android</p>
+                <div className="resume__hiring">
+                  <div className="resume__status">
+                    <h3 className="resume__title  resume__title--small">Статус</h3>
+                    <div className="resume__popup-status popup-status">
+                      <div className="popup-status__title">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="1.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="lucide lucide-chevron-down"
+                        >
+                          <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                        <p className="popup-status__name">телефонное интервью</p>
+                      </div>
+                      <ul className="popup-status__list hidden">
+                        <li className="popup-status__item">новый</li>
+                        <li className="popup-status__item">переписка</li>
+                        <li className="popup-status__item active">телефонное интервью</li>
+                        <li className="popup-status__item">первичное собеседование с hr</li>
+                        <li className="popup-status__item">
+                          техническое собеседование с заказчиком
+                        </li>
+                        <li className="popup-status__item">повторное собеседование</li>
+                        <li className="popup-status__item">тестовое задание</li>
+                        <li className="popup-status__item">отказ кандидат</li>
+                        <li className="popup-status__item">отправка оффера</li>
+                        <li className="popup-status__item">выход на работу</li>
+                        <li className="popup-status__item">адаптация</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="resume__recruter">
+                    <h3 className="resume__title resume__title--small">Рекрутер</h3>
+                    <div className="resume__recruter-card recruter-card">
+                      <img src={recr1} alt="recruter" className="recruter-card__photo" />
+                      <p className="recruter-card__name">Горбунова Любовь</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className="resume__contacts">
               <h3 className="resume__title">Контакты</h3>
               <div className="contacts">
