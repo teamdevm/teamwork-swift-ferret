@@ -84,6 +84,20 @@ function Profile() {
                 </div>
               </div>
             </div>
+              <div className="resume__info resume__info--short">
+                <h3 className="resume__title">Стек технологий</h3>
+                <ul className="resume__skills skills">
+                  <li className="skills__item">Swift</li>
+                  <li className="skills__item">Xcode</li>
+                  <li className="skills__item">Kotlin</li>
+                  <li className="skills__item">Git</li>
+                  <li className="skills__item">ООП</li>
+                  <li className="skills__item">Java</li>
+                  <li className="skills__item">Snapkit</li>
+                  <li className="skills__item">Storyboard</li>
+                  <li className="skills__item">Kotlin</li>
+                </ul>
+              </div>
             <div className="resume__contacts">
               <h3 className="resume__title">Контакты</h3>
               <div className="contacts">
