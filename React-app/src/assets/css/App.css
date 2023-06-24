@@ -370,7 +370,6 @@ svg.rotated {
   justify-content: space-between;
   width: 220px;
   padding: 10px;
-  cursor: pointer;
   border: 1px solid #ccc;
   border-radius: 5px;
   overflow: hidden;
@@ -381,7 +380,6 @@ svg.rotated {
 
 .candidate-card__info {
   display: flex;
-  cursor: pointer;
   flex-direction: column;
   align-items: center;
   row-gap: 12px;
@@ -392,6 +390,8 @@ svg.rotated {
 }
 
 .candidate-card__img {
+  cursor: pointer;
+  margin: 0 auto;
   width: 60%;
   height: auto;
   display: block;
@@ -407,15 +407,19 @@ svg.rotated {
   color: var(--color-accent);
 }
 
-.candidate-card__contacts {
+.contacts {
   display: flex;
   flex-direction: column;
+  align-items: start;
+  row-gap: 16px;
+}
+
+.candidate-card__contacts {
   align-items: center;
   row-gap: 8px;
 }
 
-.candidate-card__mail,
-.candidate-card__phone {
+.contacts__item {
   display: flex;
   align-items: center;
   color: inherit;
@@ -423,14 +427,16 @@ svg.rotated {
   transition: color 0.3s ease-in-out;
 }
 
-.candidate-card__mail:hover,
-.candidate-card__phone:hover {
+a.contacts__item:hover {
   color: var(--color-accent);
 }
 
-.candidate-card__mail svg,
-.candidate-card__phone svg {
+.candidate-card__contacts .contacts__item svg {
   max-width: 16px;
+}
+
+.contacts__item svg {
+  max-width: 20px;
 }
 
 .candidate-card__label {
@@ -602,4 +608,260 @@ svg.rotated {
   display: flex;
   align-items: center;
   column-gap: 20px;
+}
+
+/* ///////////////////////////////////////// */
+/* /////////////////профиль///////////////// */
+/* ///////////////////////////////////////// */
+
+.main__button-back {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  font-size: 18px;
+  background-color: transparent;
+  color: var(--color-dark);
+  transition: color 0.3s ease-in-out;
+}
+
+.main__button-back svg {
+  max-width: 20px;
+}
+
+.main__button-back:hover {
+  color: var(--color-accent);
+}
+
+.main__resume {
+  margin-top: 40px;
+}
+
+.resume {
+  display: flex;
+  column-gap: 120px;
+  justify-content: space-between;
+}
+
+.resume__row {
+  min-width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  row-gap: 80px;
+}
+
+.resume__actions {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.resume__title {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: var(--color-accent);
+}
+
+.resume__title--small {
+  color: var(--color-dark);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.button--outline {
+  display: flex;
+  column-gap: 8px;
+  background-color: transparent;
+  color: var(--color-dark);
+  border: 1px solid var(--color-dark);
+  transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.button--outline:hover {
+  background-color: inherit;
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.button--outline svg {
+  max-width: 20px;
+}
+
+/* ///////////////sosial/////////////////// */
+
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 20px;
+  margin-top: 20px;
+}
+
+.social__item img {
+  max-width: 36px;
+}
+
+.social__item {
+  transition: transform 0.3s ease-in-out;
+}
+
+.social__item:hover {
+  transform: scale(1.1);
+}
+
+/* ///////////////top-block/////////////////// */
+
+.resume__top-block {
+  display: flex;
+  align-items: flex-start;
+  flex-grow: 1;
+  width: 100%;
+  column-gap: 40px;
+}
+
+.resume__photo {
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.resume__main-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 32px;
+}
+
+.resume__name {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+/* ///////////////hiring/////////////////// */
+
+.resume__hiring {
+  display: flex;
+  align-items: start;
+  column-gap: 80px;
+}
+
+.popup-status {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-status__title {
+  display: flex;
+  column-gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+.popup-status__title svg {
+  max-width: 20px;
+}
+
+.popup-status__title:hover {
+  color: var(--color-accent);
+}
+
+.popup-status__list {
+  position: absolute;
+  display: flex;
+  padding: 10px 0;
+  top: 36px;
+  left: 30px;
+  flex-direction: column;
+  background-color: var(--color-light);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+  z-index: 10;
+}
+
+.popup-status__list.hidden {
+  display: none;
+}
+
+.popup-status__item {
+  padding: 10px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.popup-status__item:hover {
+  background-color: #fff1f1;
+}
+
+.recruter-card {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.recruter-card__photo {
+  max-width: 60px;
+  border-radius: 100%;
+}
+
+/* ///////////////bottom-block/////////////////// */
+
+.resume__bottom-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px 80px;
+}
+
+.resume__info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 100%;
+}
+
+.resume__info--short {
+  width: 45%;
+}
+
+/* /////////////skills//////////////////// */
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 12px;
+}
+
+/* /////////////educat//////////////////// */
+
+.educational {
+  display: flex;
+  flex-direction: column;
+  row-gap: 26px;
+}
+
+.educational__item {
+  display: flex;
+  column-gap: 40px;
+}
+
+/* /////////////experience//////////////////// */
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.experience__item {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 40px;
+}
+
+.experience__inf {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  max-width: 70%;
 }

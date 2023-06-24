@@ -5,7 +5,7 @@ import './assets/css/App.css';
 
 import { Header } from './components/index.js';
 
-import { Home, SignIn, Upload } from './pages/index.js';
+import { Home, Profile, SignIn, Upload } from './pages/index.js';
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/upload" element={<Upload />} />
         <Route exact path="/sign-in" element={<SignIn />} />
+        <Route exact path="/profile" element={<Profile />} />
       </Routes>
     </div>
   );
