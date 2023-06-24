@@ -609,3 +609,34 @@ a.contacts__item:hover {
   align-items: center;
   column-gap: 20px;
 }
+
+/* ///////////////////////////////////////// */
+/* /////////////////профиль///////////////// */
+/* ///////////////////////////////////////// */
+
+/* ///////////////top-block/////////////////// */
+
+.resume__top-block {
+  display: flex;
+  align-items: flex-start;
+  flex-grow: 1;
+  width: 100%;
+  column-gap: 40px;
+}
+
+.resume__photo {
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.resume__main-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 32px;
+}
+
+.resume__name {
+  font-weight: 700;
+  font-size: 32px;
+}
