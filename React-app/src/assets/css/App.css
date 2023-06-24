@@ -709,3 +709,24 @@ a.contacts__item:hover {
   max-width: 60px;
   border-radius: 100%;
 }
+
+/* ///////////////bottom-block/////////////////// */
+
+.resume__bottom-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px 80px;
+}
+
+.resume__info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 100%;
+}
+
+.resume__info--short {
+  width: 45%;
+}
+
