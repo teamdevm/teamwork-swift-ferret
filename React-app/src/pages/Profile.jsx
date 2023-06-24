@@ -9,6 +9,7 @@ import linkedin from '../assets/img/linkedin.png';
 import telegram from '../assets/img/telegram.png';
 import viber from '../assets/img/viber.png';
 import whatsapp from '../assets/img/whatsapp.png';
+import { StatusPopup } from '../components/index.js';
 
 function Profile() {
   return (
@@ -40,43 +41,21 @@ function Profile() {
                 <p className="resume__name">Сергеев Игнат Витальевич</p>
                 <p className="resume__vacancy">Разработчик IOS / разработчик Android</p>
                 <div className="resume__hiring">
-                  <div className="resume__status">
-                    <h3 className="resume__title  resume__title--small">Статус</h3>
-                    <div className="resume__popup-status popup-status">
-                      <div className="popup-status__title">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="1.5"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          className="lucide lucide-chevron-down"
-                        >
-                          <polyline points="6 9 12 15 18 9" />
-                        </svg>
-                        <p className="popup-status__name">телефонное интервью</p>
-                      </div>
-                      <ul className="popup-status__list hidden">
-                        <li className="popup-status__item">новый</li>
-                        <li className="popup-status__item">переписка</li>
-                        <li className="popup-status__item active">телефонное интервью</li>
-                        <li className="popup-status__item">первичное собеседование с hr</li>
-                        <li className="popup-status__item">
-                          техническое собеседование с заказчиком
-                        </li>
-                        <li className="popup-status__item">повторное собеседование</li>
-                        <li className="popup-status__item">тестовое задание</li>
-                        <li className="popup-status__item">отказ кандидат</li>
-                        <li className="popup-status__item">отправка оффера</li>
-                        <li className="popup-status__item">выход на работу</li>
-                        <li className="popup-status__item">адаптация</li>
-                      </ul>
-                    </div>
-                  </div>
+                  <StatusPopup
+                    items={[
+                      'новый',
+                      'переписка',
+                      'телефонное интервью',
+                      'первичное собеседование с hr',
+                      'техническое собеседование с заказчиком',
+                      'повторное собеседование',
+                      'тестовое задание',
+                      'отказ кандидат',
+                      'отправка оффера',
+                      'выход на работу',
+                      'адаптация',
+                    ]}
+                  />
                   <div className="resume__recruter">
                     <h3 className="resume__title resume__title--small">Рекрутер</h3>
                     <div className="resume__recruter-card recruter-card">
