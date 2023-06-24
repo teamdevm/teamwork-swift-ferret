@@ -1,8 +1,11 @@
 import React from 'react';
 import logo from '../assets/img/logo.png';
-import { Link } from 'react-router-dom';
+import classNames from 'classnames';
+import { Link, useHref } from 'react-router-dom';
 
 function Header() {
+  const history = useHref();
+
   return (
     <header className="header">
       <div className="header__container container">
@@ -13,13 +16,34 @@ function Header() {
         <nav className="header__nav">
           <ul className="nav__list">
             <Link to="/">
-              <li className="nav__item nav__item--active">Все резюме</li>
+              <li
+                className={classNames('nav__item', {
+                  active: history === '/',
+                  // desabled: !sizes.includes(size),
+                })}
+              >
+                Все резюме
+              </li>
             </Link>
             <Link to="/upload">
-              <li className="nav__item">Загрузить резюме</li>
+              <li
+                className={classNames('nav__item', {
+                  active: history === '/upload',
+                  // desabled: !sizes.includes(size),
+                })}
+              >
+                Загрузить резюме
+              </li>
             </Link>
             <Link to="/sign-in">
-              <li className="nav__item">Вход</li>
+              <li
+                className={classNames('nav__item', {
+                  active: history === '/sign-in',
+                  // desabled: !sizes.includes(size),
+                })}
+              >
+                Вход
+              </li>
             </Link>
           </ul>
         </nav>
