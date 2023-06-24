@@ -121,6 +121,48 @@ function Profile() {
                 </li>
               </ul>
             </div>
+            <div className="resume__actions">
+              <h3 className="resume__title">Действия</h3>
+              <button className="button button--outline">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-x-circle"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m15 9-6 6" />
+                  <path d="m9 9 6 6" />
+                </svg>
+                Удалить
+              </button>
+              <button className="button button--outline">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-file-input"
+                >
+                  <path d="M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v4" />
+                  <polyline points="14 2 14 8 20 8" />
+                  <path d="M2 15h10" />
+                  <path d="m9 18 3-3-3-3" />
+                </svg>
+                Выгрузить отчёт
+              </button>
+            </div>
       </div>
     </main>
   );
