@@ -121,6 +121,38 @@ function Profile() {
                   </li>
                 </ul>
               </div>
+              <div className="resume__info">
+                <h3 className="resume__title">Опыт работы</h3>
+                <ul className="resume__experience experience">
+                  <li className="experience__item">
+                    <p className="experience__dates">апрель 2022&nbsp;-&nbsp;январь 2023</p>
+                    <div className="experience__inf">
+                      <p className="experience__company">Second Company</p>
+                      <p className="experience__vacancy">разработчик IOS</p>
+                      <p className="experience__descr">
+                        Устранение багов. Редизайн приложения по макетам в Figma. Внедрил подсчёт
+                        покрытия тестами (Jacoco), поднял процент покрытия с 5% до 29%. Внедрил
+                        систему автоматизации процессов сборки и публикации приложения с помощью
+                        Fastlane, что позволило сократить время, затраченное на релизы с ~30-35 мин.
+                        до ~8-10 мин.
+                      </p>
+                    </div>
+                  </li>
+                  <li className="experience__item">
+                    <p className="experience__dates">февраль 2021&nbsp;-&nbsp;март 2022</p>
+                    <div className="experience__inf">
+                      <p className="experience__company">First Company</p>
+                      <p className="experience__vacancy">разработчик Android</p>
+                      <p className="experience__descr">
+                        Занимался созданием мобильных приложений для iOS-платформы. Моя работа
+                        включала в себя разработку функционала приложения, дизайн пользовательского
+                        интерфейса, тестирование и отладку приложения. Я также работал в команде с
+                        другими разработчиками и дизайнерами.
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
             <div className="resume__contacts">
               <h3 className="resume__title">Контакты</h3>
               <div className="contacts">
