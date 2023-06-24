@@ -98,6 +98,29 @@ function Profile() {
                   <li className="skills__item">Kotlin</li>
                 </ul>
               </div>
+              <div className="resume__info resume__info--short">
+                <h3 className="resume__title">Образование</h3>
+                <ul className="resume__educational educational">
+                  <li className="educational__item">
+                    <p className="educational__dates">2016&nbsp;-&nbsp;2020</p>
+                    <p className="educational__place">
+                      ПГНИУ
+                      <br />
+                      механико-математический факультет
+                      <br />
+                      фундаментальная информатика и информационные технологии
+                    </p>
+                  </li>
+                  <li className="educational__item">
+                    <p className="educational__dates">2021&nbsp;-&nbsp;2022</p>
+                    <p className="educational__place">
+                      SkillBox
+                      <br />
+                      профессия мобильного разработчика
+                    </p>
+                  </li>
+                </ul>
+              </div>
             <div className="resume__contacts">
               <h3 className="resume__title">Контакты</h3>
               <div className="contacts">
