@@ -730,3 +730,44 @@ a.contacts__item:hover {
   width: 45%;
 }
 
+/* /////////////skills//////////////////// */
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 12px;
+}
+
+/* /////////////educat//////////////////// */
+
+.educational {
+  display: flex;
+  flex-direction: column;
+  row-gap: 26px;
+}
+
+.educational__item {
+  display: flex;
+  column-gap: 40px;
+}
+
+/* /////////////experience//////////////////// */
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.experience__item {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 40px;
+}
+
+.experience__inf {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  max-width: 70%;
+}
