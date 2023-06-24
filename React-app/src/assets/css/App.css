@@ -778,7 +778,6 @@ a.contacts__item:hover {
   left: 30px;
   flex-direction: column;
   background-color: var(--color-light);
-  border: 1px solid #ccc;
   border-radius: 10px;
   -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
@@ -793,6 +792,10 @@ a.contacts__item:hover {
   padding: 10px;
   cursor: pointer;
   transition: color 0.3s ease-in-out;
+}
+
+.popup-status__item.active {
+  color: var(--color-accent);
 }
 
 .popup-status__item:hover {
