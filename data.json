@@ -1,0 +1,896 @@
+{
+  "persons": [
+    {
+      "photo": "https://clck.ru/34ovXs",
+      "name": "Ariana Gilmore",
+      "age": 45,
+      "sex": "male",
+      "email": "montes.ridis@yahoo.net",
+      "phone": "+794168233553",
+      "birthdate": "11.06.1994",
+      "country": "Italy",
+      "city": "Bairnsdale",
+      "status": "новый",
+      "skills": "Sql, Swift, React, ООП, html, Jira, Java, Angular, Git, Scala",
+      "education": [
+        {
+          "dates": "2012 - 2016",
+          "university": "СПБГУ",
+          "faculty": "физический",
+          "specialization": "прикладная математика и физика"
+        },
+        {
+          "dates": "2018 - 2019",
+          "university": "SkillBox",
+          "specialization": "профессия: IOS разработчик"
+        }
+      ],
+      "vacancy": "QA инженер, разработчик IOS",
+      "experience": [
+        {
+          "dates": "апрель 2022 - январь 2023",
+          "company": "Second Company",
+          "position": "разработчик IOS",
+          "description": "Устранение багов. Редизайн приложения по макетам в Figma. Внедрил подсчёт покрытия тестами (Jacoco), поднял процент покрытия с 5% до 29%. Внедрил систему автоматизации процессов сборки и публикации приложения с помощью Fastlane, что позволило сократить время, затраченное на релизы с ~30-35 мин. до ~8-10 мин."
+        },
+        {
+          "dates": "февраль 2017 - декабрь 2021",
+          "company": "First Company",
+          "position": "тестировщик",
+          "description": "Устрнение багов, ручное тестирование и написание автотестов. Составление планов и чек-листов тестирования"
+        }
+      ]
+    },
+    {
+      "name": "Gisela Kennedy",
+      "age": 49,
+      "sex": "female",
+      "email": "odio.a@hotmail.net",
+      "phone": "+793164815526",
+      "birthdate": "04.08.1981",
+      "country": "Poland",
+      "city": "Castiglione di Garfagnana",
+      "status": "переписка",
+      "skills": "TypeScript, Angular, html, C#, Scala, JavaScript, C++, Kotlin, React, CSS, Git",
+      "education": [
+        {
+          "dates": "1998 - 2004",
+          "university": "ПГАТУ",
+          "faculty": "физический",
+          "specialization": "прикладная математика и физика"
+        }
+      ],
+      "experience": [
+        {
+          "dates": "апрель 2022 - январь 2023",
+          "company": "Second Company",
+          "position": "разработчик IOS",
+          "description": "Устранение багов. Редизайн приложения по макетам в Figma. Внедрил подсчёт покрытия тестами (Jacoco), поднял процент покрытия с 5% до 29%. Внедрил систему автоматизации процессов сборки и публикации приложения с помощью Fastlane, что позволило сократить время, затраченное на релизы с ~30-35 мин. до ~8-10 мин."
+        },
+        {
+          "dates": "февраль 2017 - декабрь 2021",
+          "company": "First Company",
+          "position": "тестировщик",
+          "description": "Устрнение багов, ручное тестирование и написание автотестов. Составление планов и чек-листов тестирования"
+        }
+      ],
+      "vacancy": "разработчик Android, back-end разработчик, менеджер по продажам"
+    },
+    {
+      "name": "Fulton Travis",
+      "photo": "https://clck.ru/34ovba",
+      "age": 48,
+      "sex": "male",
+      "email": "et.magnis@icloud.net",
+      "phone": "+791163846587",
+      "birthdate": "17.03.1988",
+      "country": "Vietnam",
+      "city": "Ludvika",
+      "status": "телефонное интервью",
+      "skills": "C++, Kotlin, Angular, ООП, Jira, C#, Git, CSS, html, React, JavaScript",
+      "education": [
+        {
+          "dates": "2012 - 2016",
+          "university": "ПГНИУ",
+          "faculty": "механико-математический",
+          "specialization": "прикладная математика и иниформатика"
+        },
+        {
+          "dates": "2018 - 2019",
+          "university": "SkillBox",
+          "specialization": "devOps"
+        }
+      ],
+      "experience": [
+        {
+          "dates": "апрель 2022 - январь 2023",
+          "company": "Second Company",
+          "position": "разработчик IOS",
+          "description": "Устранение багов. Редизайн приложения по макетам в Figma. Внедрил подсчёт покрытия тестами (Jacoco), поднял процент покрытия с 5% до 29%. Внедрил систему автоматизации процессов сборки и публикации приложения с помощью Fastlane, что позволило сократить время, затраченное на релизы с ~30-35 мин. до ~8-10 мин."
+        },
+        {
+          "dates": "февраль 2017 - декабрь 2021",
+          "company": "First Company",
+          "position": "тестировщик",
+          "description": "Устрнение багов, ручное тестирование и написание автотестов. Составление планов и чек-листов тестирования"
+        }
+      ],
+      "vacancy": "devOps инженер"
+    },
+    {
+      "name": "Kylan Gaines",
+      "age": 30,
+      "sex": "female",
+      "email": "tincidunt@yahoo.com",
+      "phone": "+791661511761",
+      "birthdate": "20.08.1986",
+      "country": "Ukraine",
+      "city": "Richmond",
+      "status": "первичное собеседование с hr",
+      "skills": "Java, Git, React, Scala, html, Jira, JavaScript, Kotlin, CSS, Angular, C#, Sql, ООП",
+      "education": [{ "university": "ПГГПУ" }],
+      "experience": [
+        {
+          "dates": "апрель 2022 - январь 2023",
+          "company": "Second Company",
+          "position": "разработчик IOS",
+          "description": "Устранение багов. Редизайн приложения по макетам в Figma. Внедрил подсчёт покрытия тестами (Jacoco), поднял процент покрытия с 5% до 29%. Внедрил систему автоматизации процессов сборки и публикации приложения с помощью Fastlane, что позволило сократить время, затраченное на релизы с ~30-35 мин. до ~8-10 мин."
+        },
+        {
+          "dates": "февраль 2017 - декабрь 2021",
+          "company": "First Company",
+          "position": "тестировщик",
+          "description": "Устрнение багов, ручное тестирование и написание автотестов. Составление планов и чек-листов тестирования"
+        }
+      ],
+      "vacancy": "QA инженер, back-end разработчик, разработчик React"
+    },
+    {
+      "name": "Orli May",
+      "photo": "https://clck.ru/34ovYp",
+      "age": 37,
+      "sex": "male",
+      "email": "dolor.nulla@icloud.ca",
+      "phone": "+796685070717",
+      "birthdate": "22.11.2004",
+      "country": "Poland",
+      "city": "Yurimaguas",
+      "status": "техническое собеседование с заказчиком",
+      "skills": "Kotlin, JavaScript, Swift, C++, CSS, Git",
+      "education": [{ "university": "ПГАТУ" }],
+      "experience": [
+        {
+          "dates": "апрель 2022 - январь 2023",
+          "company": "Second Company",
+          "position": "разработчик IOS",
+          "description": "Устранение багов. Редизайн приложения по макетам в Figma. Внедрил подсчёт покрытия тестами (Jacoco), поднял процент покрытия с 5% до 29%. Внедрил систему автоматизации процессов сборки и публикации приложения с помощью Fastlane, что позволило сократить время, затраченное на релизы с ~30-35 мин. до ~8-10 мин."
+        },
+        {
+          "dates": "февраль 2017 - декабрь 2021",
+          "company": "First Company",
+          "position": "тестировщик",
+          "description": "Устрнение багов, ручное тестирование и написание автотестов. Составление планов и чек-листов тестирования"
+        }
+      ],
+      "vacancy": "back-end разработчик, QA инженер"
+    },
+    {
+      "name": "Cody Myers",
+      "age": 24,
+      "sex": "female",
+      "email": "ligula.nullam@hotmail.ca",
+      "phone": "+799238532344",
+      "birthdate": "31.07.1975",
+      "country": "Canada",
+      "city": "Siena",
+      "status": "повторное собеседование",
+      "skills": "Scala, Kotlin",
+      "education": [{ "university": "ПГМУ" }],
+      "experience": [
+        {
+          "dates": "апрель 2022 - январь 2023",
+          "company": "Second Company",
+          "position": "разработчик IOS",
+          "description": "Устранение багов. Редизайн приложения по макетам в Figma. Внедрил подсчёт покрытия тестами (Jacoco), поднял процент покрытия с 5% до 29%. Внедрил систему автоматизации процессов сборки и публикации приложения с помощью Fastlane, что позволило сократить время, затраченное на релизы с ~30-35 мин. до ~8-10 мин."
+        },
+        {
+          "dates": "февраль 2017 - декабрь 2021",
+          "company": "First Company",
+          "position": "тестировщик",
+          "description": "Устрнение багов, ручное тестирование и написание автотестов. Составление планов и чек-листов тестирования"
+        }
+      ],
+      "vacancy": "менеджер по продажам, HR, QA инженер"
+    },
+    {
+      "name": "Judith Shaffer",
+      "photo": "https://clck.ru/34oxgH",
+      "age": 46,
+      "sex": "male",
+      "email": "pede.ultrices@aol.net",
+      "phone": "+792676710938",
+      "birthdate": "22.09.2005",
+      "country": "United States",
+      "city": "Jilin",
+      "status": "тестовое задание",
+      "skills": "Java, TypeScript, html",
+      "education": [{ "university": "ПГГПУ" }],
+      "experience": [
+        {
+          "dates": "апрель 2022 - январь 2023",
+          "company": "Second Company",
+          "position": "разработчик IOS",
+          "description": "Устранение багов. Редизайн приложения по макетам в Figma. Внедрил подсчёт покрытия тестами (Jacoco), поднял процент покрытия с 5% до 29%. Внедрил систему автоматизации процессов сборки и публикации приложения с помощью Fastlane, что позволило сократить время, затраченное на релизы с ~30-35 мин. до ~8-10 мин."
+        },
+        {
+          "dates": "февраль 2017 - декабрь 2021",
+          "company": "First Company",
+          "position": "тестировщик",
+          "description": "Устрнение багов, ручное тестирование и написание автотестов. Составление планов и чек-листов тестирования"
+        }
+      ],
+      "vacancy": "back-end разработчик"
+    },
+    {
+      "name": "Leila Kerr",
+      "age": 52,
+      "sex": "female",
+      "email": "sagittis.vitae@hotmail.com",
+      "phone": "+792646285346",
+      "birthdate": "01.05.2007",
+      "country": "Mexico",
+      "city": "Fort Worth",
+      "status": "отказ кандидата",
+      "skills": "TypeScript, JavaScript, Kotlin, Scala, ООП, Jira, Java, Sql, Swift, C++, C#, Git, React",
+      "education": [{ "university": "СПБГУ" }],
+      "experience": [
+        {
+          "dates": "апрель 2022 - январь 2023",
+          "company": "Second Company",
+          "position": "разработчик IOS",
+          "description": "Устранение багов. Редизайн приложения по макетам в Figma. Внедрил подсчёт покрытия тестами (Jacoco), поднял процент покрытия с 5% до 29%. Внедрил систему автоматизации процессов сборки и публикации приложения с помощью Fastlane, что позволило сократить время, затраченное на релизы с ~30-35 мин. до ~8-10 мин."
+        },
+        {
+          "dates": "февраль 2017 - декабрь 2021",
+          "company": "First Company",
+          "position": "тестировщик",
+          "description": "Устрнение багов, ручное тестирование и написание автотестов. Составление планов и чек-листов тестирования"
+        }
+      ],
+      "vacancy": "разработчик Android, HR"
+    },
+    {
+      "name": "Kimberley Stark",
+      "age": 37,
+      "sex": "male",
+      "email": "fusce@protonmail.com",
+      "phone": "+798647034350",
+      "birthdate": "16.04.1973",
+      "country": "New Zealand",
+      "city": "Malambo",
+      "status": "отправка оффера",
+      "skills": "Jira, Swift, TypeScript, CSS, Sql, Kotlin, Angular, html, Git, Java, C++, ООП, React, JavaScript, C#",
+      "education": [{ "university": "СПБГУ" }],
+      "experience": [
+        {
+          "dates": "апрель 2022 - январь 2023",
+          "company": "Second Company",
+          "position": "разработчик IOS",
+          "description": "Устранение багов. Редизайн приложения по макетам в Figma. Внедрил подсчёт покрытия тестами (Jacoco), поднял процент покрытия с 5% до 29%. Внедрил систему автоматизации процессов сборки и публикации приложения с помощью Fastlane, что позволило сократить время, затраченное на релизы с ~30-35 мин. до ~8-10 мин."
+        },
+        {
+          "dates": "февраль 2017 - декабрь 2021",
+          "company": "First Company",
+          "position": "тестировщик",
+          "description": "Устрнение багов, ручное тестирование и написание автотестов. Составление планов и чек-листов тестирования"
+        }
+      ],
+      "vacancy": "HR, разработчик Android, devOps инженер"
+    },
+    {
+      "name": "Bernard Keller",
+      "age": 52,
+      "sex": "female",
+      "email": "tincidunt@icloud.com",
+      "phone": "+797263580816",
+      "birthdate": "05.07.1985",
+      "country": "Colombia",
+      "city": "Huaraz",
+      "status": "выход на работу",
+      "skills": "Angular, Kotlin, Swift, CSS, Scala, C#, Jira",
+      "education": [{ "university": "СПБГУ" }],
+      "experience": [
+        {
+          "dates": "апрель 2022 - январь 2023",
+          "company": "Second Company",
+          "position": "разработчик IOS",
+          "description": "Устранение багов. Редизайн приложения по макетам в Figma. Внедрил подсчёт покрытия тестами (Jacoco), поднял процент покрытия с 5% до 29%. Внедрил систему автоматизации процессов сборки и публикации приложения с помощью Fastlane, что позволило сократить время, затраченное на релизы с ~30-35 мин. до ~8-10 мин."
+        },
+        {
+          "dates": "февраль 2017 - декабрь 2021",
+          "company": "First Company",
+          "position": "тестировщик",
+          "description": "Устрнение багов, ручное тестирование и написание автотестов. Составление планов и чек-листов тестирования"
+        }
+      ],
+      "vacancy": "HR"
+    },
+    {
+      "name": "Jason Mclaughlin",
+      "photo": "https://clck.ru/34oxgv",
+      "age": 57,
+      "sex": "male",
+      "email": "fermentum.arcu@prail.edu",
+      "phone": "+799150265378",
+      "birthdate": "13.12.1974",
+      "country": "Pakistan",
+      "city": "Ogbomosho",
+      "status": "адаптация",
+      "skills": "Java, TypeScript, React, Git, Kotlin",
+      "education": [{ "university": "ПГГПУ" }],
+      "experience": [
+        {
+          "dates": "апрель 2022 - январь 2023",
+          "company": "Second Company",
+          "position": "разработчик IOS",
+          "description": "Устранение багов. Редизайн приложения по макетам в Figma. Внедрил подсчёт покрытия тестами (Jacoco), поднял процент покрытия с 5% до 29%. Внедрил систему автоматизации процессов сборки и публикации приложения с помощью Fastlane, что позволило сократить время, затраченное на релизы с ~30-35 мин. до ~8-10 мин."
+        },
+        {
+          "dates": "февраль 2017 - декабрь 2021",
+          "company": "First Company",
+          "position": "тестировщик",
+          "description": "Устрнение багов, ручное тестирование и написание автотестов. Составление планов и чек-листов тестирования"
+        }
+      ],
+      "vacancy": "devOps инженер, менеджер по продажам"
+    },
+    {
+      "name": "Oscar Horn",
+      "age": 59,
+      "sex": "female",
+      "email": "sed@hotmail.net",
+      "phone": "+795405560101",
+      "birthdate": "27.11.2000",
+      "country": "Nigeria",
+      "city": "Pangkalpinang",
+      "status": "новый",
+      "skills": "Sql, C#, Kotlin, Scala, Jira, Angular, Java, Git, TypeScript, Swift",
+      "education": [{ "university": "СПБГУ" }],
+      "experience": [
+        {
+          "dates": "апрель 2022 - январь 2023",
+          "company": "Second Company",
+          "position": "разработчик IOS",
+          "description": "Устранение багов. Редизайн приложения по макетам в Figma. Внедрил подсчёт покрытия тестами (Jacoco), поднял процент покрытия с 5% до 29%. Внедрил систему автоматизации процессов сборки и публикации приложения с помощью Fastlane, что позволило сократить время, затраченное на релизы с ~30-35 мин. до ~8-10 мин."
+        },
+        {
+          "dates": "февраль 2017 - декабрь 2021",
+          "company": "First Company",
+          "position": "тестировщик",
+          "description": "Устрнение багов, ручное тестирование и написание автотестов. Составление планов и чек-листов тестирования"
+        }
+      ],
+      "vacancy": "QA инженер, разработчик React"
+    },
+    {
+      "name": "Ignatius Parks",
+      "age": 40,
+      "sex": "male",
+      "email": "lacus.nulla@yahoo.couk",
+      "phone": "+792171913563",
+      "birthdate": "12.06.1988",
+      "country": "Russian Federation",
+      "city": "Sandefjord",
+      "status": "переписка",
+      "skills": "ООП, React, Sql, JavaScript, Java, CSS, Swift, TypeScript, C++, Jira, C#, Git, Kotlin",
+      "education": [{ "university": "ПГГПУ" }],
+      "experience": [
+        {
+          "dates": "апрель 2022 - январь 2023",
+          "company": "Second Company",
+          "position": "разработчик IOS",
+          "description": "Устранение багов. Редизайн приложения по макетам в Figma. Внедрил подсчёт покрытия тестами (Jacoco), поднял процент покрытия с 5% до 29%. Внедрил систему автоматизации процессов сборки и публикации приложения с помощью Fastlane, что позволило сократить время, затраченное на релизы с ~30-35 мин. до ~8-10 мин."
+        },
+        {
+          "dates": "февраль 2017 - декабрь 2021",
+          "company": "First Company",
+          "position": "тестировщик",
+          "description": "Устрнение багов, ручное тестирование и написание автотестов. Составление планов и чек-листов тестирования"
+        }
+      ],
+      "vacancy": "разработчик IOS, devOps инженер, QA инженер"
+    },
+    {
+      "name": "Eliana Robbins",
+      "age": 20,
+      "sex": "female",
+      "email": "lacinia@hotmail.org",
+      "phone": "+798274459762",
+      "birthdate": "13.04.2005",
+      "country": "Peru",
+      "city": "Cần Thơ",
+      "status": "телефонное интервью",
+      "skills": "ООП, Git, Kotlin, CSS, C#",
+      "education": [{ "university": "ПГМУ" }],
+      "experience": [
+        {
+          "dates": "апрель 2022 - январь 2023",
+          "company": "Second Company",
+          "position": "разработчик IOS",
+          "description": "Устранение багов. Редизайн приложения по макетам в Figma. Внедрил подсчёт покрытия тестами (Jacoco), поднял процент покрытия с 5% до 29%. Внедрил систему автоматизации процессов сборки и публикации приложения с помощью Fastlane, что позволило сократить время, затраченное на релизы с ~30-35 мин. до ~8-10 мин."
+        },
+        {
+          "dates": "февраль 2017 - декабрь 2021",
+          "company": "First Company",
+          "position": "тестировщик",
+          "description": "Устрнение багов, ручное тестирование и написание автотестов. Составление планов и чек-листов тестирования"
+        }
+      ],
+      "vacancy": "разработчик React, HR, разработчик IOS"
+    },
+    {
+      "name": "Lars Mosley",
+      "age": 59,
+      "sex": "male",
+      "email": "euismod@aol.com",
+      "phone": "+791977432354",
+      "birthdate": "23.07.1988",
+      "country": "Russian Federation",
+      "city": "Neelum Valley",
+      "status": "первичное собеседование с hr",
+      "skills": "Angular",
+      "education": [{ "university": "ПГГПУ" }],
+      "experience": [
+        {
+          "dates": "апрель 2022 - январь 2023",
+          "company": "Second Company",
+          "position": "разработчик IOS",
+          "description": "Устранение багов. Редизайн приложения по макетам в Figma. Внедрил подсчёт покрытия тестами (Jacoco), поднял процент покрытия с 5% до 29%. Внедрил систему автоматизации процессов сборки и публикации приложения с помощью Fastlane, что позволило сократить время, затраченное на релизы с ~30-35 мин. до ~8-10 мин."
+        },
+        {
+          "dates": "февраль 2017 - декабрь 2021",
+          "company": "First Company",
+          "position": "тестировщик",
+          "description": "Устрнение багов, ручное тестирование и написание автотестов. Составление планов и чек-листов тестирования"
+        }
+      ],
+      "vacancy": "менеджер по продажам, разработчик IOS, back-end разработчик"
+    },
+    {
+      "name": "Marshall Burns",
+      "age": 41,
+      "sex": "female",
+      "email": "ultrices.vivamus@mail.edu",
+      "phone": "+793258605591",
+      "birthdate": "04.12.2003",
+      "country": "Russian Federation",
+      "city": "San Pedro",
+      "status": "техническое собеседование с заказчиком",
+      "skills": "ООП, Jira",
+      "education": [{ "university": "МГУ" }],
+      "experience": [
+        {
+          "dates": "апрель 2022 - январь 2023",
+          "company": "Second Company",
+          "position": "разработчик IOS",
+          "description": "Устранение багов. Редизайн приложения по макетам в Figma. Внедрил подсчёт покрытия тестами (Jacoco), поднял процент покрытия с 5% до 29%. Внедрил систему автоматизации процессов сборки и публикации приложения с помощью Fastlane, что позволило сократить время, затраченное на релизы с ~30-35 мин. до ~8-10 мин."
+        },
+        {
+          "dates": "февраль 2017 - декабрь 2021",
+          "company": "First Company",
+          "position": "тестировщик",
+          "description": "Устрнение багов, ручное тестирование и написание автотестов. Составление планов и чек-листов тестирования"
+        }
+      ],
+      "vacancy": "разработчик React, devOps инженер"
+    },
+    {
+      "name": "Ruby Hess",
+      "age": 48,
+      "sex": "male",
+      "email": "per.inceptos@google.org",
+      "phone": "+795410356075",
+      "birthdate": "23.04.1979",
+      "country": "Nigeria",
+      "city": "Padang Sidempuan",
+      "status": "повторное собеседование",
+      "skills": "Angular, C++",
+      "education": [{ "university": "ПГГПУ" }],
+      "experience": [
+        {
+          "dates": "апрель 2022 - январь 2023",
+          "company": "Second Company",
+          "position": "разработчик IOS",
+          "description": "Устранение багов. Редизайн приложения по макетам в Figma. Внедрил подсчёт покрытия тестами (Jacoco), поднял процент покрытия с 5% до 29%. Внедрил систему автоматизации процессов сборки и публикации приложения с помощью Fastlane, что позволило сократить время, затраченное на релизы с ~30-35 мин. до ~8-10 мин."
+        },
+        {
+          "dates": "февраль 2017 - декабрь 2021",
+          "company": "First Company",
+          "position": "тестировщик",
+          "description": "Устрнение багов, ручное тестирование и написание автотестов. Составление планов и чек-листов тестирования"
+        }
+      ],
+      "vacancy": "devOps инженер"
+    },
+    {
+      "photo": "https://clck.ru/34ovaq",
+      "name": "Hall Knight",
+      "age": 20,
+      "sex": "female",
+      "email": "cursus.a@aol.com",
+      "phone": "+791488138101",
+      "birthdate": "14.02.1997",
+      "country": "Canada",
+      "city": "Korosten",
+      "status": "тестовое задание",
+      "skills": "JavaScript, C++, CSS, Kotlin, ООП, React, Java, Jira",
+      "education": [{ "university": "ПГМУ" }],
+      "experience": [
+        {
+          "dates": "апрель 2022 - январь 2023",
+          "company": "Second Company",
+          "position": "разработчик IOS",
+          "description": "Устранение багов. Редизайн приложения по макетам в Figma. Внедрил подсчёт покрытия тестами (Jacoco), поднял процент покрытия с 5% до 29%. Внедрил систему автоматизации процессов сборки и публикации приложения с помощью Fastlane, что позволило сократить время, затраченное на релизы с ~30-35 мин. до ~8-10 мин."
+        },
+        {
+          "dates": "февраль 2017 - декабрь 2021",
+          "company": "First Company",
+          "position": "тестировщик",
+          "description": "Устрнение багов, ручное тестирование и написание автотестов. Составление планов и чек-листов тестирования"
+        }
+      ],
+      "vacancy": "разработчик React, HR"
+    },
+    {
+      "name": "Lyle Vaughn",
+      "age": 41,
+      "sex": "male",
+      "email": "sociosqu.ad@yahoo.net",
+      "phone": "+793687492684",
+      "birthdate": "16.03.1972",
+      "country": "Brazil",
+      "city": "Barranca",
+      "status": "отказ кандидата",
+      "skills": "Scala, html, CSS, C++, ООП",
+      "education": [
+        {
+          "dates": "2012 - 2016",
+          "education": [{ "university": "ПГНИУ" }],
+          "faculty": "механико-математический",
+          "specialization": "прикладная математика и иниформатика"
+        },
+        {
+          "dates": "2018 - 2019",
+          "university": "SkillBox",
+          "specialization": "devOps"
+        }
+      ],
+      "experience": [
+        {
+          "dates": "апрель 2022 - январь 2023",
+          "company": "Second Company",
+          "position": "разработчик IOS",
+          "description": "Устранение багов. Редизайн приложения по макетам в Figma. Внедрил подсчёт покрытия тестами (Jacoco), поднял процент покрытия с 5% до 29%. Внедрил систему автоматизации процессов сборки и публикации приложения с помощью Fastlane, что позволило сократить время, затраченное на релизы с ~30-35 мин. до ~8-10 мин."
+        },
+        {
+          "dates": "февраль 2017 - декабрь 2021",
+          "company": "First Company",
+          "position": "тестировщик",
+          "description": "Устрнение багов, ручное тестирование и написание автотестов. Составление планов и чек-листов тестирования"
+        }
+      ],
+      "vacancy": "back-end разработчик, менеджер по продажам"
+    },
+    {
+      "name": "Burton Whitfield",
+      "age": 24,
+      "sex": "female",
+      "email": "arcu.sit@protonmail.com",
+      "phone": "+793746166421",
+      "birthdate": "25.01.1973",
+      "country": "United States",
+      "city": "Gorontalo",
+      "status": "отправка оффера",
+      "skills": "Angular, C#, CSS",
+      "education": [{ "university": "СПБГУ" }],
+      "experience": [
+        {
+          "dates": "апрель 2022 - январь 2023",
+          "company": "Second Company",
+          "position": "разработчик IOS",
+          "description": "Устранение багов. Редизайн приложения по макетам в Figma. Внедрил подсчёт покрытия тестами (Jacoco), поднял процент покрытия с 5% до 29%. Внедрил систему автоматизации процессов сборки и публикации приложения с помощью Fastlane, что позволило сократить время, затраченное на релизы с ~30-35 мин. до ~8-10 мин."
+        },
+        {
+          "dates": "февраль 2017 - декабрь 2021",
+          "company": "First Company",
+          "position": "тестировщик",
+          "description": "Устрнение багов, ручное тестирование и написание автотестов. Составление планов и чек-листов тестирования"
+        }
+      ],
+      "vacancy": "разработчик Android"
+    },
+    {
+      "name": "Isaac Ratliff",
+      "photo": "https://clck.ru/34ovaT",
+      "age": 26,
+      "sex": "male",
+      "email": "velit.eget@yahoo.edu",
+      "phone": "+798136369424",
+      "birthdate": "12.04.1991",
+      "country": "China",
+      "city": "Labuissire",
+      "status": "выход на работу",
+      "skills": "Swift, Scala, Git, Jira, JavaScript, html",
+      "education": [{ "university": "ПГГПУ" }],
+      "experience": [
+        {
+          "dates": "апрель 2022 - январь 2023",
+          "company": "Second Company",
+          "position": "разработчик IOS",
+          "description": "Устранение багов. Редизайн приложения по макетам в Figma. Внедрил подсчёт покрытия тестами (Jacoco), поднял процент покрытия с 5% до 29%. Внедрил систему автоматизации процессов сборки и публикации приложения с помощью Fastlane, что позволило сократить время, затраченное на релизы с ~30-35 мин. до ~8-10 мин."
+        },
+        {
+          "dates": "февраль 2017 - декабрь 2021",
+          "company": "First Company",
+          "position": "тестировщик",
+          "description": "Устрнение багов, ручное тестирование и написание автотестов. Составление планов и чек-листов тестирования"
+        }
+      ],
+      "vacancy": "разработчик React, менеджер по продажам"
+    },
+    {
+      "name": "Amena Dominguez",
+      "age": 42,
+      "sex": "female",
+      "email": "et.magnis@google.net",
+      "phone": "+792877386470",
+      "birthdate": "18.10.1981",
+      "country": "Spain",
+      "city": "Jaén",
+      "status": "адаптация",
+      "skills": "C#, html",
+      "education": [{ "university": "ПГГПУ" }],
+      "experience": [
+        {
+          "dates": "апрель 2022 - январь 2023",
+          "company": "Second Company",
+          "position": "разработчик IOS",
+          "description": "Устранение багов. Редизайн приложения по макетам в Figma. Внедрил подсчёт покрытия тестами (Jacoco), поднял процент покрытия с 5% до 29%. Внедрил систему автоматизации процессов сборки и публикации приложения с помощью Fastlane, что позволило сократить время, затраченное на релизы с ~30-35 мин. до ~8-10 мин."
+        },
+        {
+          "dates": "февраль 2017 - декабрь 2021",
+          "company": "First Company",
+          "position": "тестировщик",
+          "description": "Устрнение багов, ручное тестирование и написание автотестов. Составление планов и чек-листов тестирования"
+        }
+      ],
+      "vacancy": "back-end разработчик, менеджер по продажам"
+    },
+    {
+      "name": "Sharon Eaton",
+      "age": 30,
+      "sex": "male",
+      "email": "a@yahoo.ca",
+      "phone": "+791083723373",
+      "birthdate": "14.01.1974",
+      "country": "Sweden",
+      "city": "Tuscaloosa",
+      "status": "новый",
+      "skills": "Sql, ООП, Scala, Java, Swift, C++, html, TypeScript, React, Git, JavaScript, Angular",
+      "education": [{ "university": "СПБГУ" }],
+      "experience": [
+        {
+          "dates": "апрель 2022 - январь 2023",
+          "company": "Second Company",
+          "position": "разработчик IOS",
+          "description": "Устранение багов. Редизайн приложения по макетам в Figma. Внедрил подсчёт покрытия тестами (Jacoco), поднял процент покрытия с 5% до 29%. Внедрил систему автоматизации процессов сборки и публикации приложения с помощью Fastlane, что позволило сократить время, затраченное на релизы с ~30-35 мин. до ~8-10 мин."
+        },
+        {
+          "dates": "февраль 2017 - декабрь 2021",
+          "company": "First Company",
+          "position": "тестировщик",
+          "description": "Устрнение багов, ручное тестирование и написание автотестов. Составление планов и чек-листов тестирования"
+        }
+      ],
+      "vacancy": "QA инженер, разработчик Android"
+    },
+    {
+      "name": "Mollie Good",
+      "age": 39,
+      "sex": "female",
+      "email": "mauris@icloud.edu",
+      "phone": "+791201918986",
+      "birthdate": "11.06.1987",
+      "country": "United Kingdom",
+      "city": "Navojoa",
+      "status": "переписка",
+      "skills": "JavaScript, Kotlin, ООП, CSS, html, Java",
+      "education": [{ "university": "ПГМУ" }],
+      "experience": [
+        {
+          "dates": "апрель 2022 - январь 2023",
+          "company": "Second Company",
+          "position": "разработчик IOS",
+          "description": "Устранение багов. Редизайн приложения по макетам в Figma. Внедрил подсчёт покрытия тестами (Jacoco), поднял процент покрытия с 5% до 29%. Внедрил систему автоматизации процессов сборки и публикации приложения с помощью Fastlane, что позволило сократить время, затраченное на релизы с ~30-35 мин. до ~8-10 мин."
+        },
+        {
+          "dates": "февраль 2017 - декабрь 2021",
+          "company": "First Company",
+          "position": "тестировщик",
+          "description": "Устрнение багов, ручное тестирование и написание автотестов. Составление планов и чек-листов тестирования"
+        }
+      ],
+      "vacancy": "разработчик React, devOps инженер"
+    },
+    {
+      "name": "Rahim Bauer",
+      "photo": "https://clck.ru/34ovcb",
+      "age": 33,
+      "sex": "male",
+      "email": "leo@yahoo.net",
+      "phone": "+791451826171",
+      "birthdate": "11.01.1971",
+      "country": "Sweden",
+      "city": "Sierning",
+      "status": "телефонное интервью",
+      "skills": "Java, C++, Jira, CSS, html, JavaScript, ООП, Kotlin, TypeScript",
+      "education": [{ "university": "МГУ" }],
+      "experience": [
+        {
+          "dates": "апрель 2022 - январь 2023",
+          "company": "Second Company",
+          "position": "разработчик IOS",
+          "description": "Устранение багов. Редизайн приложения по макетам в Figma. Внедрил подсчёт покрытия тестами (Jacoco), поднял процент покрытия с 5% до 29%. Внедрил систему автоматизации процессов сборки и публикации приложения с помощью Fastlane, что позволило сократить время, затраченное на релизы с ~30-35 мин. до ~8-10 мин."
+        },
+        {
+          "dates": "февраль 2017 - декабрь 2021",
+          "company": "First Company",
+          "position": "тестировщик",
+          "description": "Устрнение багов, ручное тестирование и написание автотестов. Составление планов и чек-листов тестирования"
+        }
+      ],
+      "vacancy": "HR"
+    },
+    {
+      "name": "Petra Mcintosh",
+      "age": 23,
+      "sex": "female",
+      "email": "ultrices.sit@outlook.net",
+      "phone": "+792513195577",
+      "birthdate": "20.12.1985",
+      "country": "Vietnam",
+      "city": "Heilongjiang",
+      "status": "первичное собеседование с hr",
+      "skills": "Scala, ООП, Jira, Sql, JavaScript, Swift, Java, Kotlin, Git, html, C++, React, TypeScript",
+      "education": [{ "university": "ПГНИУ" }],
+      "experience": [
+        {
+          "dates": "апрель 2022 - январь 2023",
+          "company": "Second Company",
+          "position": "разработчик IOS",
+          "description": "Устранение багов. Редизайн приложения по макетам в Figma. Внедрил подсчёт покрытия тестами (Jacoco), поднял процент покрытия с 5% до 29%. Внедрил систему автоматизации процессов сборки и публикации приложения с помощью Fastlane, что позволило сократить время, затраченное на релизы с ~30-35 мин. до ~8-10 мин."
+        },
+        {
+          "dates": "февраль 2017 - декабрь 2021",
+          "company": "First Company",
+          "position": "тестировщик",
+          "description": "Устрнение багов, ручное тестирование и написание автотестов. Составление планов и чек-листов тестирования"
+        }
+      ],
+      "vacancy": "QA инженер"
+    },
+    {
+      "name": "Catherine Cooper",
+      "age": 20,
+      "sex": "male",
+      "email": "sed.molestie@google.couk",
+      "phone": "+793237523685",
+      "birthdate": "01.09.1971",
+      "country": "Poland",
+      "city": "Campitello di Fassa",
+      "status": "техническое собеседование с заказчиком",
+      "skills": "JavaScript, Jira, html, Git, Scala, ООП, Angular, React, Sql, C++, Java, Swift, CSS, TypeScript, C#",
+      "education": [{ "university": "СПБГУ" }],
+      "experience": [
+        {
+          "dates": "апрель 2022 - январь 2023",
+          "company": "Second Company",
+          "position": "разработчик IOS",
+          "description": "Устранение багов. Редизайн приложения по макетам в Figma. Внедрил подсчёт покрытия тестами (Jacoco), поднял процент покрытия с 5% до 29%. Внедрил систему автоматизации процессов сборки и публикации приложения с помощью Fastlane, что позволило сократить время, затраченное на релизы с ~30-35 мин. до ~8-10 мин."
+        },
+        {
+          "dates": "февраль 2017 - декабрь 2021",
+          "company": "First Company",
+          "position": "тестировщик",
+          "description": "Устрнение багов, ручное тестирование и написание автотестов. Составление планов и чек-листов тестирования"
+        }
+      ],
+      "vacancy": "back-end разработчик, разработчик React"
+    },
+    {
+      "name": "Hedda Hardy",
+      "age": 52,
+      "sex": "female",
+      "email": "lorem.sit@yahoo.org",
+      "phone": "+797247585676",
+      "birthdate": "23.08.2003",
+      "country": "South Korea",
+      "city": "Lampa",
+      "status": "повторное собеседование",
+      "skills": "React, Sql, Kotlin, CSS",
+      "education": [{ "university": "МГУ" }],
+      "experience": [
+        {
+          "dates": "апрель 2022 - январь 2023",
+          "company": "Second Company",
+          "position": "разработчик IOS",
+          "description": "Устранение багов. Редизайн приложения по макетам в Figma. Внедрил подсчёт покрытия тестами (Jacoco), поднял процент покрытия с 5% до 29%. Внедрил систему автоматизации процессов сборки и публикации приложения с помощью Fastlane, что позволило сократить время, затраченное на релизы с ~30-35 мин. до ~8-10 мин."
+        },
+        {
+          "dates": "февраль 2017 - декабрь 2021",
+          "company": "First Company",
+          "position": "тестировщик",
+          "description": "Устрнение багов, ручное тестирование и написание автотестов. Составление планов и чек-листов тестирования"
+        }
+      ],
+      "vacancy": "менеджер по продажам"
+    },
+    {
+      "name": "Zelda Powell",
+      "age": 31,
+      "sex": "male",
+      "email": "am.vulputate@yahoo.org",
+      "phone": "+796926026840",
+      "birthdate": "06.05.1996",
+      "country": "Singapore",
+      "city": "Meycauayan",
+      "status": "тестовое задание",
+      "skills": "Git, TypeScript, C#",
+      "education": [{ "university": "ПГАТУ" }],
+      "experience": [
+        {
+          "dates": "апрель 2022 - январь 2023",
+          "company": "Second Company",
+          "position": "разработчик IOS",
+          "description": "Устранение багов. Редизайн приложения по макетам в Figma. Внедрил подсчёт покрытия тестами (Jacoco), поднял процент покрытия с 5% до 29%. Внедрил систему автоматизации процессов сборки и публикации приложения с помощью Fastlane, что позволило сократить время, затраченное на релизы с ~30-35 мин. до ~8-10 мин."
+        },
+        {
+          "dates": "февраль 2017 - декабрь 2021",
+          "company": "First Company",
+          "position": "тестировщик",
+          "description": "Устрнение багов, ручное тестирование и написание автотестов. Составление планов и чек-листов тестирования"
+        }
+      ],
+      "vacancy": "менеджер по продажам, QA инженер"
+    },
+    {
+      "name": "Tatiana Durham",
+      "photo": "https://clck.ru/34ovbH",
+      "age": 39,
+      "sex": "female",
+      "email": "cursus.et.eros@hotmail.com",
+      "phone": "+795348998116",
+      "birthdate": "24.01.1978",
+      "country": "Philippines",
+      "city": "Kurram Agency",
+      "status": "отказ кандидата",
+      "skills": "JavaScript, React, CSS",
+      "education": [{ "university": "МГУ" }],
+      "experience": [
+        {
+          "dates": "апрель 2022 - январь 2023",
+          "company": "Second Company",
+          "position": "разработчик IOS",
+          "description": "Устранение багов. Редизайн приложения по макетам в Figma. Внедрил подсчёт покрытия тестами (Jacoco), поднял процент покрытия с 5% до 29%. Внедрил систему автоматизации процессов сборки и публикации приложения с помощью Fastlane, что позволило сократить время, затраченное на релизы с ~30-35 мин. до ~8-10 мин."
+        },
+        {
+          "dates": "февраль 2017 - декабрь 2021",
+          "company": "First Company",
+          "position": "тестировщик",
+          "description": "Устрнение багов, ручное тестирование и написание автотестов. Составление планов и чек-листов тестирования"
+        }
+      ],
+      "vacancy": "разработчик Android, devOps инженер, QA инженер"
+    }
+  ]
+}
