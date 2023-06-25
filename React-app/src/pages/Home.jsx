@@ -9,7 +9,8 @@ import cand5 from '../assets/img/candidate (5).jpg';
 import cand6 from '../assets/img/candidate (6).jpg';
 import cand7 from '../assets/img/candidate (7).jpg';
 import cand8 from '../assets/img/candidate (8).jpg';
-import { Filters, SortPopup } from '../components';
+
+import { Filters, PersonCard, SortPopup } from '../components/index';
 
 function Home() {
   const [persons, setPersons] = React.useState([]);
@@ -107,7 +108,24 @@ function Home() {
               Выгрузить в Exel
             </button>
           </div>
-          <SortPopup items={['ФИО', 'статусу', 'вакансии', 'дате добавления']} />
+          <SortPopup
+            value={selectedSort}
+            onChange={sortPosts}
+            items={[
+              {
+                value: 'name',
+                name: 'ФИО',
+              },
+              {
+                value: 'vacancy',
+                name: 'вакансии',
+              },
+              {
+                value: 'status',
+                name: 'статусу',
+              },
+            ]}
+          />
         </section>
         <div className="main__center-part">
           <Filters />
