@@ -726,6 +726,7 @@ a.contacts__item:hover {
 
 .resume__photo {
   border-radius: 100%;
+  max-width: 210px;
   object-fit: cover;
 }
 
