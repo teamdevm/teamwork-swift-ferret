@@ -1,9 +1,9 @@
 import classNames from 'classnames';
 import React from 'react';
 
-function StatusPopup({ items }) {
+function StatusPopup({ items, current }) {
   const [visiblePopup, setVisiblePopup] = React.useState(false);
-  const [activeItem, setActiveItem] = React.useState(0);
+  const [activeItem, setActiveItem] = React.useState(items.indexOf(current));
   const sortRef = React.useRef();
   const activeLabel = items[activeItem];
 
@@ -56,6 +56,7 @@ function StatusPopup({ items }) {
                 active: activeLabel === item,
               })}
               onClick={() => onSelectItem(index)}
+              key={`${item}_${index}`}
             >
               {item}
             </li>
