@@ -1,11 +1,12 @@
 import classNames from 'classnames';
 import React from 'react';
 
-function SortPopup({ items }) {
+function SortPopup({ items, onChange, value }) {
   const [visiblePopup, setVisiblePopup] = React.useState(false);
   const [activeItem, setActiveItem] = React.useState(0);
+  const activeLabel = items[activeItem].name;
+
   const sortRef = React.useRef();
-  const activeLabel = items[activeItem];
 
   const toggleVisiblePopup = () => {
     setVisiblePopup(!visiblePopup);
@@ -23,6 +24,11 @@ function SortPopup({ items }) {
   React.useEffect(() => {
     document.body.addEventListener('click', hadleOutsideClick);
   }, []);
+
+  React.useEffect(() => {
+    value = items[activeItem].value;
+    onChange(value);
+  }, [activeItem]);
 
   return (
     <div ref={sortRef} className="main__sort sort">
@@ -51,11 +57,12 @@ function SortPopup({ items }) {
         {items.map((item, index) => (
           <li
             className={classNames('sort__item', {
-              active: activeLabel === item,
+              active: activeLabel === item.name,
             })}
             onClick={() => onSelectItem(index)}
+            key={`${item.name}_${index}`}
           >
-            {item}
+            {item.name}
           </li>
         ))}
       </ul>

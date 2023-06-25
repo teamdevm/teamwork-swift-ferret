@@ -4,3 +4,5 @@ export { default as FilterCheckbox } from './FilterCheckbox';
 export { default as FilterText } from './FilterText';
 export { default as SortPopup } from './SortPopup';
 export { default as StatusPopup } from './StatusPopup';
+export { default as PersonCard } from './PersonCard';
+export { default as PersonProfile } from './PersonProfile';
