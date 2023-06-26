@@ -1,7 +1,6 @@
 {
   "persons": [
     {
-      "photo": "https://clck.ru/34ovXs",
       "name": "Ariana Gilmore",
       "age": 45,
       "sex": "male",
@@ -78,7 +77,6 @@
     },
     {
       "name": "Fulton Travis",
-      "photo": "https://clck.ru/34ovba",
       "age": 48,
       "sex": "male",
       "email": "et.magnis@icloud.net",
@@ -147,7 +145,6 @@
     },
     {
       "name": "Orli May",
-      "photo": "https://clck.ru/34ovYp",
       "age": 37,
       "sex": "male",
       "email": "dolor.nulla@icloud.ca",
@@ -204,7 +201,6 @@
     },
     {
       "name": "Judith Shaffer",
-      "photo": "https://clck.ru/34oxgH",
       "age": 46,
       "sex": "male",
       "email": "pede.ultrices@aol.net",
@@ -317,7 +313,6 @@
     },
     {
       "name": "Jason Mclaughlin",
-      "photo": "https://clck.ru/34oxgv",
       "age": 57,
       "sex": "male",
       "email": "fermentum.arcu@prail.edu",
@@ -513,7 +508,6 @@
       "vacancy": "devOps инженер"
     },
     {
-      "photo": "https://clck.ru/34ovaq",
       "name": "Hall Knight",
       "age": 20,
       "sex": "female",
@@ -611,7 +605,6 @@
     },
     {
       "name": "Isaac Ratliff",
-      "photo": "https://clck.ru/34ovaT",
       "age": 26,
       "sex": "male",
       "email": "velit.eget@yahoo.edu",
@@ -724,7 +717,6 @@
     },
     {
       "name": "Rahim Bauer",
-      "photo": "https://clck.ru/34ovcb",
       "age": 33,
       "sex": "male",
       "email": "leo@yahoo.net",
@@ -865,7 +857,6 @@
     },
     {
       "name": "Tatiana Durham",
-      "photo": "https://clck.ru/34ovbH",
       "age": 39,
       "sex": "female",
       "email": "cursus.et.eros@hotmail.com",
