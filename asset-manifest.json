@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/teamwork-swift-ferret/static/css/main.f08ceb5e.css",
-    "main.js": "/teamwork-swift-ferret/static/js/main.0cfffb1a.js",
+    "main.css": "/teamwork-swift-ferret/static/css/main.a53b823c.css",
+    "main.js": "/teamwork-swift-ferret/static/js/main.4c652f40.js",
     "static/media/recruter (1).jpg": "/teamwork-swift-ferret/static/media/recruter (1).b7d359f41393d38fdfd3.jpg",
     "static/media/Nunito-Regular.woff": "/teamwork-swift-ferret/static/media/Nunito-Regular.9144703ca1c8225d762c.woff",
     "static/media/Nunito-Bold.woff": "/teamwork-swift-ferret/static/media/Nunito-Bold.f75afecb2220c7dda1a0.woff",
@@ -18,11 +18,11 @@
     "static/media/candidate (2).jpg": "/teamwork-swift-ferret/static/media/candidate (2).12d9ed4e6304fc797454.jpg",
     "static/media/candidate (7).jpg": "/teamwork-swift-ferret/static/media/candidate (7).00daecf21d0cc030194e.jpg",
     "index.html": "/teamwork-swift-ferret/index.html",
-    "main.f08ceb5e.css.map": "/teamwork-swift-ferret/static/css/main.f08ceb5e.css.map",
-    "main.0cfffb1a.js.map": "/teamwork-swift-ferret/static/js/main.0cfffb1a.js.map"
+    "main.a53b823c.css.map": "/teamwork-swift-ferret/static/css/main.a53b823c.css.map",
+    "main.4c652f40.js.map": "/teamwork-swift-ferret/static/js/main.4c652f40.js.map"
   },
   "entrypoints": [
-    "static/css/main.f08ceb5e.css",
-    "static/js/main.0cfffb1a.js"
+    "static/css/main.a53b823c.css",
+    "static/js/main.4c652f40.js"
   ]
 }
