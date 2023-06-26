@@ -438,11 +438,11 @@ a.contacts__item:hover {
 }
 
 .candidate-card__contacts .contacts__item svg {
-  max-width: 16px;
+  width: 16px;
 }
 
 .contacts__item svg {
-  max-width: 20px;
+  width: 20px;
 }
 
 .candidate-card__label {
@@ -595,7 +595,7 @@ a.contacts__item:hover {
 
 .files__button svg {
   background-color: inherit;
-  height: 30px;
+  width: 30px;
   transition: color 0.3s ease-in-out;
 }
 
