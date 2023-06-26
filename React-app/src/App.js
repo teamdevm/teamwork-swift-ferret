@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 
 import './assets/css/App.css';
 
@@ -12,6 +12,7 @@ function App() {
     <div className="wrapper">
       <Header />
       <Routes>
+        <Route path="/teamwork-swift-ferret/" element={<Navigate to="/" />} />
         <Route exact path="/" element={<Home />} />
         <Route exact path="/upload" element={<Upload />} />
         <Route exact path="/sign-in" element={<SignIn />} />
