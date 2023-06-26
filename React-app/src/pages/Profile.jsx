@@ -10,7 +10,7 @@ function Profile() {
   return (
     <main className="main">
       <div className="main__container container">
-        <Link to="/teamwork-swift-ferret" className="main__button-back">
+        <Link to="/teamwork-swift-ferret/" className="main__button-back">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"

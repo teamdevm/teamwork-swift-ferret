@@ -15,10 +15,10 @@ function Header() {
         </div>
         <nav className="header__nav">
           <ul className="nav__list">
-            <Link to="/">
+            <Link to="/teamwork-swift-ferret/">
               <li
                 className={classNames('nav__item', {
-                  active: history === '/',
+                  active: history === '/teamwork-swift-ferret/',
                 })}
               >
                 Все резюме
