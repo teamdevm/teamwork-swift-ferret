@@ -12,8 +12,8 @@ function App() {
     <div className="wrapper">
       <Header />
       <Routes>
-        <Route path="/teamwork-swift-ferret/" element={<Navigate to="/" />} />
-        <Route exact path="/" element={<Home />} />
+        {/* <Route path="/teamwork-swift-ferret/" element={<Navigate to="/" />} /> */}
+        <Route exact path="/teamwork-swift-ferret" element={<Home />} />
         <Route exact path="/upload" element={<Upload />} />
         {/* <Route exact path="/sign-in" element={<SignIn />} /> */}
         <Route exact path="/profile" element={<Profile />} />
