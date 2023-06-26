@@ -1,28 +1,20 @@
 {
   "files": {
     "main.css": "/teamwork-swift-ferret/static/css/main.a53b823c.css",
-    "main.js": "/teamwork-swift-ferret/static/js/main.4c652f40.js",
+    "main.js": "/teamwork-swift-ferret/static/js/main.3b0ccbd7.js",
     "static/media/recruter (1).jpg": "/teamwork-swift-ferret/static/media/recruter (1).b7d359f41393d38fdfd3.jpg",
     "static/media/Nunito-Regular.woff": "/teamwork-swift-ferret/static/media/Nunito-Regular.9144703ca1c8225d762c.woff",
     "static/media/Nunito-Bold.woff": "/teamwork-swift-ferret/static/media/Nunito-Bold.f75afecb2220c7dda1a0.woff",
-    "static/media/candidate (4).jpg": "/teamwork-swift-ferret/static/media/candidate (4).ee4bb806103759db87da.jpg",
     "static/media/Nunito-Regular.woff2": "/teamwork-swift-ferret/static/media/Nunito-Regular.08d796f9635ea73e67b1.woff2",
     "static/media/Nunito-Bold.woff2": "/teamwork-swift-ferret/static/media/Nunito-Bold.5b4c8cfd3c196071f90c.woff2",
-    "static/media/candidate (5).jpg": "/teamwork-swift-ferret/static/media/candidate (5).ad21cb9bb56d31debe66.jpg",
-    "static/media/candidate (8).jpg": "/teamwork-swift-ferret/static/media/candidate (8).de3cd09d7a03127ef96b.jpg",
-    "static/media/candidate (1).jpg": "/teamwork-swift-ferret/static/media/candidate (1).b242eb1c18a75efa691c.jpg",
     "static/media/logo.png": "/teamwork-swift-ferret/static/media/logo.b5316030a9b3363a7a83.png",
-    "static/media/candidate (3).jpg": "/teamwork-swift-ferret/static/media/candidate (3).58bf9debf67df745dd60.jpg",
-    "static/media/candidate (6).jpg": "/teamwork-swift-ferret/static/media/candidate (6).20531b45d4ae039c2e4b.jpg",
     "static/media/defaultPhoto.jpg": "/teamwork-swift-ferret/static/media/defaultPhoto.93a9f09b10998471b665.jpg",
-    "static/media/candidate (2).jpg": "/teamwork-swift-ferret/static/media/candidate (2).12d9ed4e6304fc797454.jpg",
-    "static/media/candidate (7).jpg": "/teamwork-swift-ferret/static/media/candidate (7).00daecf21d0cc030194e.jpg",
     "index.html": "/teamwork-swift-ferret/index.html",
     "main.a53b823c.css.map": "/teamwork-swift-ferret/static/css/main.a53b823c.css.map",
-    "main.4c652f40.js.map": "/teamwork-swift-ferret/static/js/main.4c652f40.js.map"
+    "main.3b0ccbd7.js.map": "/teamwork-swift-ferret/static/js/main.3b0ccbd7.js.map"
   },
   "entrypoints": [
     "static/css/main.a53b823c.css",
-    "static/js/main.4c652f40.js"
+    "static/js/main.3b0ccbd7.js"
   ]
 }
