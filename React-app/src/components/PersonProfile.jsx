@@ -206,7 +206,7 @@ function PersonProfile({ obj }) {
             </svg>
             Удалить
           </button>
-          <button className="button button--outline">
+          {/* <button className="button button--outline">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -225,7 +225,7 @@ function PersonProfile({ obj }) {
               <path d="m9 18 3-3-3-3" />
             </svg>
             Выгрузить отчёт
-          </button>
+          </button> */}
         </div>
       </div>
     </section>

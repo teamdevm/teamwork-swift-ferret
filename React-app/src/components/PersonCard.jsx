@@ -57,10 +57,10 @@ function PersonCard({ obj, photo }) {
         </div>
       </div>
 
-      <label className="candidate-card__label">
+      {/* <label className="candidate-card__label">
         <input type="checkbox" className="candidate-card__input input-checkbox" name="select" />
         <span>Выбрать</span>
-      </label>
+      </label> */}
     </div>
   );
 }

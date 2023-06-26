@@ -1,14 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-
-import cand1 from '../assets/img/candidate (1).jpg';
-import cand2 from '../assets/img/candidate (2).jpg';
-import cand3 from '../assets/img/candidate (3).jpg';
-import cand4 from '../assets/img/candidate (4).jpg';
-import cand5 from '../assets/img/candidate (5).jpg';
-import cand6 from '../assets/img/candidate (6).jpg';
-import cand7 from '../assets/img/candidate (7).jpg';
-import cand8 from '../assets/img/candidate (8).jpg';
 
 import { Filters, PersonCard, SortPopup } from '../components/index';
 
@@ -77,7 +67,7 @@ function Home() {
         </button> */}
         <section className="main__settings">
           <div className="main__find-count">Найдено: {persons.length}</div>
-          <div className="main__select">
+          {/* <div className="main__select">
             <label className="main__label">
               <input
                 type="checkbox"
@@ -107,7 +97,7 @@ function Home() {
               </svg>
               Выгрузить в Exel
             </button>
-          </div>
+          </div> */}
           <SortPopup
             value={selectedSort}
             onChange={sortPosts}
@@ -133,7 +123,7 @@ function Home() {
             <h2 className="main__title">Кандидаты</h2>
             <div className="main__candidate-cards candidate-cards">
               {persons.map((person, index) => (
-                <PersonCard key={`${person.name}_${index}`} obj={person} photo={cand3} />
+                <PersonCard key={`${person.name}_${index}`} obj={person} />
               ))}
             </div>
           </section>

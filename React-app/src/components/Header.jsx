@@ -19,7 +19,6 @@ function Header() {
               <li
                 className={classNames('nav__item', {
                   active: history === '/',
-                  // desabled: !sizes.includes(size),
                 })}
               >
                 Все резюме
@@ -29,22 +28,20 @@ function Header() {
               <li
                 className={classNames('nav__item', {
                   active: history === '/upload',
-                  // desabled: !sizes.includes(size),
                 })}
               >
                 Загрузить резюме
               </li>
             </Link>
-            <Link to="/sign-in">
+            {/* <Link to="/sign-in">
               <li
                 className={classNames('nav__item', {
                   active: history === '/sign-in',
-                  // desabled: !sizes.includes(size),
                 })}
               >
                 Вход
               </li>
-            </Link>
+            </Link> */}
           </ul>
         </nav>
       </div>

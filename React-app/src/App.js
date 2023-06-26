@@ -15,7 +15,7 @@ function App() {
         <Route path="/teamwork-swift-ferret/" element={<Navigate to="/" />} />
         <Route exact path="/" element={<Home />} />
         <Route exact path="/upload" element={<Upload />} />
-        <Route exact path="/sign-in" element={<SignIn />} />
+        {/* <Route exact path="/sign-in" element={<SignIn />} /> */}
         <Route exact path="/profile" element={<Profile />} />
       </Routes>
     </div>
