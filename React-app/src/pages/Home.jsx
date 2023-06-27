@@ -1,15 +1,17 @@
 import React from 'react';
 
 import { Filters, PersonCard, SortPopup } from '../components/index';
+import data from '../assets/data.json';
 
 function Home() {
   const [persons, setPersons] = React.useState([]);
   const [selectedSort, setSelectedSort] = React.useState('');
 
   React.useEffect(() => {
-    fetch('http://localhost:3000/teamwork-swift-ferret/data.json')
-      .then((resp) => resp.json())
-      .then((json) => setPersons(json.persons));
+    // fetch('../assets/data.json')
+    //   .then((resp) => resp.json())
+    //   .then((json) => setPersons(json.persons));
+    setPersons(data.persons);
   }, []);
 
   const sortPosts = (sort) => {
