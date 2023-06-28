@@ -5,6 +5,10 @@
       "age": 45,
       "sex": "male",
       "email": "montes.ridis@yahoo.net",
+      "socials": {
+        "github": "https://github.com/Lagertt",
+        "telegram": "https://t.me/polya_ryabova"
+      },
       "phone": "+794168233553",
       "birthdate": "11.06.1994",
       "country": "Italy",
@@ -45,6 +49,10 @@
       "age": 49,
       "sex": "female",
       "email": "odio.a@hotmail.net",
+      "socials": {
+        "github": "https://github.com/Lagertt",
+        "telegram": "https://t.me/polya_ryabova"
+      },
       "phone": "+793164815526",
       "birthdate": "04.08.1981",
       "country": "Poland",
@@ -80,6 +88,10 @@
       "age": 48,
       "sex": "male",
       "email": "et.magnis@icloud.net",
+      "socials": {
+        "github": "https://github.com/Lagertt",
+        "telegram": "https://t.me/polya_ryabova"
+      },
       "phone": "+791163846587",
       "birthdate": "17.03.1988",
       "country": "Vietnam",
@@ -120,13 +132,22 @@
       "age": 30,
       "sex": "female",
       "email": "tincidunt@yahoo.com",
+      "socials": {
+        "github": "https://github.com/Lagertt",
+        "telegram": "https://t.me/polya_ryabova"
+      },
       "phone": "+791661511761",
       "birthdate": "20.08.1986",
       "country": "Ukraine",
       "city": "Richmond",
       "status": "первичное собеседование с hr",
       "skills": "Java, Git, React, Scala, html, Jira, JavaScript, Kotlin, CSS, Angular, C#, Sql, ООП",
-      "education": [{ "university": "ПГГПУ" }],
+      "education": [
+        {
+          "dates": "1998 - 2004",
+          "university": "ПГГПУ"
+        }
+      ],
       "experience": [
         {
           "dates": "апрель 2022 - январь 2023",
@@ -148,13 +169,22 @@
       "age": 37,
       "sex": "male",
       "email": "dolor.nulla@icloud.ca",
+      "socials": {
+        "github": "https://github.com/Lagertt",
+        "telegram": "https://t.me/polya_ryabova"
+      },
       "phone": "+796685070717",
       "birthdate": "22.11.2004",
       "country": "Poland",
       "city": "Yurimaguas",
       "status": "техническое собеседование с заказчиком",
       "skills": "Kotlin, JavaScript, Swift, C++, CSS, Git",
-      "education": [{ "university": "ПГАТУ" }],
+      "education": [
+        {
+          "dates": "2021 - 2025",
+          "university": "ПГАТУ"
+        }
+      ],
       "experience": [
         {
           "dates": "апрель 2022 - январь 2023",
@@ -176,6 +206,10 @@
       "age": 24,
       "sex": "female",
       "email": "ligula.nullam@hotmail.ca",
+      "socials": {
+        "github": "https://github.com/Lagertt",
+        "telegram": "https://t.me/polya_ryabova"
+      },
       "phone": "+799238532344",
       "birthdate": "31.07.1975",
       "country": "Canada",
@@ -204,13 +238,29 @@
       "age": 46,
       "sex": "male",
       "email": "pede.ultrices@aol.net",
+      "socials": {
+        "github": "https://github.com/Lagertt",
+        "telegram": "https://t.me/polya_ryabova"
+      },
       "phone": "+792676710938",
       "birthdate": "22.09.2005",
       "country": "United States",
       "city": "Jilin",
       "status": "тестовое задание",
       "skills": "Java, TypeScript, html",
-      "education": [{ "university": "ПГГПУ" }],
+      "education": [
+        {
+          "dates": "2012 - 2016",
+          "university": "ПГНИУ",
+          "faculty": "механико-математический",
+          "specialization": "прикладная математика и иниформатика"
+        },
+        {
+          "dates": "2018 - 2019",
+          "university": "SkillBox",
+          "specialization": "devOps"
+        }
+      ],
       "experience": [
         {
           "dates": "апрель 2022 - январь 2023",
@@ -232,13 +282,29 @@
       "age": 52,
       "sex": "female",
       "email": "sagittis.vitae@hotmail.com",
+      "socials": {
+        "github": "https://github.com/Lagertt",
+        "telegram": "https://t.me/polya_ryabova"
+      },
       "phone": "+792646285346",
       "birthdate": "01.05.2007",
       "country": "Mexico",
       "city": "Fort Worth",
       "status": "отказ кандидата",
       "skills": "TypeScript, JavaScript, Kotlin, Scala, ООП, Jira, Java, Sql, Swift, C++, C#, Git, React",
-      "education": [{ "university": "СПБГУ" }],
+      "education": [
+        {
+          "dates": "2012 - 2016",
+          "university": "ПГНИУ",
+          "faculty": "механико-математический",
+          "specialization": "прикладная математика и иниформатика"
+        },
+        {
+          "dates": "2018 - 2019",
+          "university": "SkillBox",
+          "specialization": "devOps"
+        }
+      ],
       "experience": [
         {
           "dates": "апрель 2022 - январь 2023",
@@ -260,13 +326,29 @@
       "age": 37,
       "sex": "male",
       "email": "fusce@protonmail.com",
+      "socials": {
+        "github": "https://github.com/Lagertt",
+        "telegram": "https://t.me/polya_ryabova"
+      },
       "phone": "+798647034350",
       "birthdate": "16.04.1973",
       "country": "New Zealand",
       "city": "Malambo",
       "status": "отправка оффера",
       "skills": "Jira, Swift, TypeScript, CSS, Sql, Kotlin, Angular, html, Git, Java, C++, ООП, React, JavaScript, C#",
-      "education": [{ "university": "СПБГУ" }],
+      "education": [
+        {
+          "dates": "2012 - 2016",
+          "university": "ПГНИУ",
+          "faculty": "механико-математический",
+          "specialization": "прикладная математика и иниформатика"
+        },
+        {
+          "dates": "2018 - 2019",
+          "university": "SkillBox",
+          "specialization": "devOps"
+        }
+      ],
       "experience": [
         {
           "dates": "апрель 2022 - январь 2023",
@@ -288,13 +370,29 @@
       "age": 52,
       "sex": "female",
       "email": "tincidunt@icloud.com",
+      "socials": {
+        "github": "https://github.com/Lagertt",
+        "telegram": "https://t.me/polya_ryabova"
+      },
       "phone": "+797263580816",
       "birthdate": "05.07.1985",
       "country": "Colombia",
       "city": "Huaraz",
       "status": "выход на работу",
       "skills": "Angular, Kotlin, Swift, CSS, Scala, C#, Jira",
-      "education": [{ "university": "СПБГУ" }],
+      "education": [
+        {
+          "dates": "2012 - 2016",
+          "university": "ПГНИУ",
+          "faculty": "механико-математический",
+          "specialization": "прикладная математика и иниформатика"
+        },
+        {
+          "dates": "2018 - 2019",
+          "university": "SkillBox",
+          "specialization": "devOps"
+        }
+      ],
       "experience": [
         {
           "dates": "апрель 2022 - январь 2023",
@@ -316,13 +414,29 @@
       "age": 57,
       "sex": "male",
       "email": "fermentum.arcu@prail.edu",
+      "socials": {
+        "github": "https://github.com/Lagertt",
+        "telegram": "https://t.me/polya_ryabova"
+      },
       "phone": "+799150265378",
       "birthdate": "13.12.1974",
       "country": "Pakistan",
       "city": "Ogbomosho",
       "status": "адаптация",
       "skills": "Java, TypeScript, React, Git, Kotlin",
-      "education": [{ "university": "ПГГПУ" }],
+      "education": [
+        {
+          "dates": "2012 - 2016",
+          "university": "ПГНИУ",
+          "faculty": "механико-математический",
+          "specialization": "прикладная математика и иниформатика"
+        },
+        {
+          "dates": "2018 - 2019",
+          "university": "SkillBox",
+          "specialization": "devOps"
+        }
+      ],
       "experience": [
         {
           "dates": "апрель 2022 - январь 2023",
@@ -344,13 +458,29 @@
       "age": 59,
       "sex": "female",
       "email": "sed@hotmail.net",
+      "socials": {
+        "github": "https://github.com/Lagertt",
+        "telegram": "https://t.me/polya_ryabova"
+      },
       "phone": "+795405560101",
       "birthdate": "27.11.2000",
       "country": "Nigeria",
       "city": "Pangkalpinang",
       "status": "новый",
       "skills": "Sql, C#, Kotlin, Scala, Jira, Angular, Java, Git, TypeScript, Swift",
-      "education": [{ "university": "СПБГУ" }],
+      "education": [
+        {
+          "dates": "2012 - 2016",
+          "university": "ПГНИУ",
+          "faculty": "механико-математический",
+          "specialization": "прикладная математика и иниформатика"
+        },
+        {
+          "dates": "2018 - 2019",
+          "university": "SkillBox",
+          "specialization": "devOps"
+        }
+      ],
       "experience": [
         {
           "dates": "апрель 2022 - январь 2023",
@@ -372,13 +502,29 @@
       "age": 40,
       "sex": "male",
       "email": "lacus.nulla@yahoo.couk",
+      "socials": {
+        "github": "https://github.com/Lagertt",
+        "telegram": "https://t.me/polya_ryabova"
+      },
       "phone": "+792171913563",
       "birthdate": "12.06.1988",
       "country": "Russian Federation",
       "city": "Sandefjord",
       "status": "переписка",
       "skills": "ООП, React, Sql, JavaScript, Java, CSS, Swift, TypeScript, C++, Jira, C#, Git, Kotlin",
-      "education": [{ "university": "ПГГПУ" }],
+      "education": [
+        {
+          "dates": "2012 - 2016",
+          "university": "ПГНИУ",
+          "faculty": "механико-математический",
+          "specialization": "прикладная математика и иниформатика"
+        },
+        {
+          "dates": "2018 - 2019",
+          "university": "SkillBox",
+          "specialization": "devOps"
+        }
+      ],
       "experience": [
         {
           "dates": "апрель 2022 - январь 2023",
@@ -400,13 +546,29 @@
       "age": 20,
       "sex": "female",
       "email": "lacinia@hotmail.org",
+      "socials": {
+        "github": "https://github.com/Lagertt",
+        "telegram": "https://t.me/polya_ryabova"
+      },
       "phone": "+798274459762",
       "birthdate": "13.04.2005",
       "country": "Peru",
       "city": "Cần Thơ",
       "status": "телефонное интервью",
       "skills": "ООП, Git, Kotlin, CSS, C#",
-      "education": [{ "university": "ПГМУ" }],
+      "education": [
+        {
+          "dates": "2012 - 2016",
+          "university": "ПГНИУ",
+          "faculty": "механико-математический",
+          "specialization": "прикладная математика и иниформатика"
+        },
+        {
+          "dates": "2018 - 2019",
+          "university": "SkillBox",
+          "specialization": "devOps"
+        }
+      ],
       "experience": [
         {
           "dates": "апрель 2022 - январь 2023",
@@ -428,13 +590,29 @@
       "age": 59,
       "sex": "male",
       "email": "euismod@aol.com",
+      "socials": {
+        "github": "https://github.com/Lagertt",
+        "telegram": "https://t.me/polya_ryabova"
+      },
       "phone": "+791977432354",
       "birthdate": "23.07.1988",
       "country": "Russian Federation",
       "city": "Neelum Valley",
       "status": "первичное собеседование с hr",
       "skills": "Angular",
-      "education": [{ "university": "ПГГПУ" }],
+      "education": [
+        {
+          "dates": "2012 - 2016",
+          "university": "ПГНИУ",
+          "faculty": "механико-математический",
+          "specialization": "прикладная математика и иниформатика"
+        },
+        {
+          "dates": "2018 - 2019",
+          "university": "SkillBox",
+          "specialization": "devOps"
+        }
+      ],
       "experience": [
         {
           "dates": "апрель 2022 - январь 2023",
@@ -456,13 +634,29 @@
       "age": 41,
       "sex": "female",
       "email": "ultrices.vivamus@mail.edu",
+      "socials": {
+        "github": "https://github.com/Lagertt",
+        "telegram": "https://t.me/polya_ryabova"
+      },
       "phone": "+793258605591",
       "birthdate": "04.12.2003",
       "country": "Russian Federation",
       "city": "San Pedro",
       "status": "техническое собеседование с заказчиком",
       "skills": "ООП, Jira",
-      "education": [{ "university": "МГУ" }],
+      "education": [
+        {
+          "dates": "2012 - 2016",
+          "university": "ПГНИУ",
+          "faculty": "механико-математический",
+          "specialization": "прикладная математика и иниформатика"
+        },
+        {
+          "dates": "2018 - 2019",
+          "university": "SkillBox",
+          "specialization": "devOps"
+        }
+      ],
       "experience": [
         {
           "dates": "апрель 2022 - январь 2023",
@@ -484,13 +678,29 @@
       "age": 48,
       "sex": "male",
       "email": "per.inceptos@google.org",
+      "socials": {
+        "github": "https://github.com/Lagertt",
+        "telegram": "https://t.me/polya_ryabova"
+      },
       "phone": "+795410356075",
       "birthdate": "23.04.1979",
       "country": "Nigeria",
       "city": "Padang Sidempuan",
       "status": "повторное собеседование",
       "skills": "Angular, C++",
-      "education": [{ "university": "ПГГПУ" }],
+      "education": [
+        {
+          "dates": "2012 - 2016",
+          "university": "ПГНИУ",
+          "faculty": "механико-математический",
+          "specialization": "прикладная математика и иниформатика"
+        },
+        {
+          "dates": "2018 - 2019",
+          "university": "SkillBox",
+          "specialization": "devOps"
+        }
+      ],
       "experience": [
         {
           "dates": "апрель 2022 - январь 2023",
@@ -512,13 +722,29 @@
       "age": 20,
       "sex": "female",
       "email": "cursus.a@aol.com",
+      "socials": {
+        "github": "https://github.com/Lagertt",
+        "telegram": "https://t.me/polya_ryabova"
+      },
       "phone": "+791488138101",
       "birthdate": "14.02.1997",
       "country": "Canada",
       "city": "Korosten",
       "status": "тестовое задание",
       "skills": "JavaScript, C++, CSS, Kotlin, ООП, React, Java, Jira",
-      "education": [{ "university": "ПГМУ" }],
+      "education": [
+        {
+          "dates": "2012 - 2016",
+          "university": "ПГНИУ",
+          "faculty": "механико-математический",
+          "specialization": "прикладная математика и иниформатика"
+        },
+        {
+          "dates": "2018 - 2019",
+          "university": "SkillBox",
+          "specialization": "devOps"
+        }
+      ],
       "experience": [
         {
           "dates": "апрель 2022 - январь 2023",
@@ -540,6 +766,10 @@
       "age": 41,
       "sex": "male",
       "email": "sociosqu.ad@yahoo.net",
+      "socials": {
+        "github": "https://github.com/Lagertt",
+        "telegram": "https://t.me/polya_ryabova"
+      },
       "phone": "+793687492684",
       "birthdate": "16.03.1972",
       "country": "Brazil",
@@ -549,7 +779,6 @@
       "education": [
         {
           "dates": "2012 - 2016",
-          "education": [{ "university": "ПГНИУ" }],
           "faculty": "механико-математический",
           "specialization": "прикладная математика и иниформатика"
         },
@@ -580,13 +809,29 @@
       "age": 24,
       "sex": "female",
       "email": "arcu.sit@protonmail.com",
+      "socials": {
+        "github": "https://github.com/Lagertt",
+        "telegram": "https://t.me/polya_ryabova"
+      },
       "phone": "+793746166421",
       "birthdate": "25.01.1973",
       "country": "United States",
       "city": "Gorontalo",
       "status": "отправка оффера",
       "skills": "Angular, C#, CSS",
-      "education": [{ "university": "СПБГУ" }],
+      "education": [
+        {
+          "dates": "2012 - 2016",
+          "university": "ПГНИУ",
+          "faculty": "механико-математический",
+          "specialization": "прикладная математика и иниформатика"
+        },
+        {
+          "dates": "2018 - 2019",
+          "university": "SkillBox",
+          "specialization": "devOps"
+        }
+      ],
       "experience": [
         {
           "dates": "апрель 2022 - январь 2023",
@@ -608,13 +853,29 @@
       "age": 26,
       "sex": "male",
       "email": "velit.eget@yahoo.edu",
+      "socials": {
+        "github": "https://github.com/Lagertt",
+        "telegram": "https://t.me/polya_ryabova"
+      },
       "phone": "+798136369424",
       "birthdate": "12.04.1991",
       "country": "China",
       "city": "Labuissire",
       "status": "выход на работу",
       "skills": "Swift, Scala, Git, Jira, JavaScript, html",
-      "education": [{ "university": "ПГГПУ" }],
+      "education": [
+        {
+          "dates": "2012 - 2016",
+          "university": "ПГНИУ",
+          "faculty": "механико-математический",
+          "specialization": "прикладная математика и иниформатика"
+        },
+        {
+          "dates": "2018 - 2019",
+          "university": "SkillBox",
+          "specialization": "devOps"
+        }
+      ],
       "experience": [
         {
           "dates": "апрель 2022 - январь 2023",
@@ -636,13 +897,29 @@
       "age": 42,
       "sex": "female",
       "email": "et.magnis@google.net",
+      "socials": {
+        "github": "https://github.com/Lagertt",
+        "telegram": "https://t.me/polya_ryabova"
+      },
       "phone": "+792877386470",
       "birthdate": "18.10.1981",
       "country": "Spain",
       "city": "Jaén",
       "status": "адаптация",
       "skills": "C#, html",
-      "education": [{ "university": "ПГГПУ" }],
+      "education": [
+        {
+          "dates": "2012 - 2016",
+          "university": "ПГНИУ",
+          "faculty": "механико-математический",
+          "specialization": "прикладная математика и иниформатика"
+        },
+        {
+          "dates": "2018 - 2019",
+          "university": "SkillBox",
+          "specialization": "devOps"
+        }
+      ],
       "experience": [
         {
           "dates": "апрель 2022 - январь 2023",
@@ -664,13 +941,29 @@
       "age": 30,
       "sex": "male",
       "email": "a@yahoo.ca",
+      "socials": {
+        "github": "https://github.com/Lagertt",
+        "telegram": "https://t.me/polya_ryabova"
+      },
       "phone": "+791083723373",
       "birthdate": "14.01.1974",
       "country": "Sweden",
       "city": "Tuscaloosa",
       "status": "новый",
       "skills": "Sql, ООП, Scala, Java, Swift, C++, html, TypeScript, React, Git, JavaScript, Angular",
-      "education": [{ "university": "СПБГУ" }],
+      "education": [
+        {
+          "dates": "2012 - 2016",
+          "university": "ПГНИУ",
+          "faculty": "механико-математический",
+          "specialization": "прикладная математика и иниформатика"
+        },
+        {
+          "dates": "2018 - 2019",
+          "university": "SkillBox",
+          "specialization": "devOps"
+        }
+      ],
       "experience": [
         {
           "dates": "апрель 2022 - январь 2023",
@@ -692,13 +985,29 @@
       "age": 39,
       "sex": "female",
       "email": "mauris@icloud.edu",
+      "socials": {
+        "github": "https://github.com/Lagertt",
+        "telegram": "https://t.me/polya_ryabova"
+      },
       "phone": "+791201918986",
       "birthdate": "11.06.1987",
       "country": "United Kingdom",
       "city": "Navojoa",
       "status": "переписка",
       "skills": "JavaScript, Kotlin, ООП, CSS, html, Java",
-      "education": [{ "university": "ПГМУ" }],
+      "education": [
+        {
+          "dates": "2012 - 2016",
+          "university": "ПГНИУ",
+          "faculty": "механико-математический",
+          "specialization": "прикладная математика и иниформатика"
+        },
+        {
+          "dates": "2018 - 2019",
+          "university": "SkillBox",
+          "specialization": "devOps"
+        }
+      ],
       "experience": [
         {
           "dates": "апрель 2022 - январь 2023",
@@ -720,13 +1029,29 @@
       "age": 33,
       "sex": "male",
       "email": "leo@yahoo.net",
+      "socials": {
+        "github": "https://github.com/Lagertt",
+        "telegram": "https://t.me/polya_ryabova"
+      },
       "phone": "+791451826171",
       "birthdate": "11.01.1971",
       "country": "Sweden",
       "city": "Sierning",
       "status": "телефонное интервью",
       "skills": "Java, C++, Jira, CSS, html, JavaScript, ООП, Kotlin, TypeScript",
-      "education": [{ "university": "МГУ" }],
+      "education": [
+        {
+          "dates": "2012 - 2016",
+          "university": "ПГНИУ",
+          "faculty": "механико-математический",
+          "specialization": "прикладная математика и иниформатика"
+        },
+        {
+          "dates": "2018 - 2019",
+          "university": "SkillBox",
+          "specialization": "devOps"
+        }
+      ],
       "experience": [
         {
           "dates": "апрель 2022 - январь 2023",
@@ -748,13 +1073,29 @@
       "age": 23,
       "sex": "female",
       "email": "ultrices.sit@outlook.net",
+      "socials": {
+        "github": "https://github.com/Lagertt",
+        "telegram": "https://t.me/polya_ryabova"
+      },
       "phone": "+792513195577",
       "birthdate": "20.12.1985",
       "country": "Vietnam",
       "city": "Heilongjiang",
       "status": "первичное собеседование с hr",
       "skills": "Scala, ООП, Jira, Sql, JavaScript, Swift, Java, Kotlin, Git, html, C++, React, TypeScript",
-      "education": [{ "university": "ПГНИУ" }],
+      "education": [
+        {
+          "dates": "2012 - 2016",
+          "university": "ПГНИУ",
+          "faculty": "механико-математический",
+          "specialization": "прикладная математика и иниформатика"
+        },
+        {
+          "dates": "2018 - 2019",
+          "university": "SkillBox",
+          "specialization": "devOps"
+        }
+      ],
       "experience": [
         {
           "dates": "апрель 2022 - январь 2023",
@@ -776,6 +1117,10 @@
       "age": 20,
       "sex": "male",
       "email": "sed.molestie@google.couk",
+      "socials": {
+        "github": "https://github.com/Lagertt",
+        "telegram": "https://t.me/polya_ryabova"
+      },
       "phone": "+793237523685",
       "birthdate": "01.09.1971",
       "country": "Poland",
@@ -804,6 +1149,10 @@
       "age": 52,
       "sex": "female",
       "email": "lorem.sit@yahoo.org",
+      "socials": {
+        "github": "https://github.com/Lagertt",
+        "telegram": "https://t.me/polya_ryabova"
+      },
       "phone": "+797247585676",
       "birthdate": "23.08.2003",
       "country": "South Korea",
@@ -832,6 +1181,10 @@
       "age": 31,
       "sex": "male",
       "email": "am.vulputate@yahoo.org",
+      "socials": {
+        "github": "https://github.com/Lagertt",
+        "telegram": "https://t.me/polya_ryabova"
+      },
       "phone": "+796926026840",
       "birthdate": "06.05.1996",
       "country": "Singapore",
@@ -860,6 +1213,10 @@
       "age": 39,
       "sex": "female",
       "email": "cursus.et.eros@hotmail.com",
+      "socials": {
+        "github": "https://github.com/Lagertt",
+        "telegram": "https://t.me/polya_ryabova"
+      },
       "phone": "+795348998116",
       "birthdate": "24.01.1978",
       "country": "Philippines",

@@ -1,4 +1,5 @@
 import React from 'react';
+import classNames from 'classnames';
 
 import recr1 from '../assets/img/recruter (1).jpg';
 import defaultPhoto from '../assets/img/defaultPhoto.jpg';
@@ -37,13 +38,13 @@ function PersonProfile({ obj }) {
                   'адаптация',
                 ]}
               />
-              <div className="resume__recruter">
+              {/* <div className="resume__recruter">
                 <h3 className="resume__title resume__title--small">Рекрутер</h3>
                 <div className="resume__recruter-card recruter-card">
                   <img src={recr1} alt="recruter" className="recruter-card__photo" />
                   <p className="recruter-card__name">Горбунова Любовь</p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -51,8 +52,8 @@ function PersonProfile({ obj }) {
           <div className="resume__info">
             <h3 className="resume__title">Стек технологий</h3>
             <ul className="resume__skills skills">
-              {obj.skills.split(', ').map((item) => (
-                <li className="skills__item" key={item}>
+              {obj.skills.split(', ').map((item, index) => (
+                <li className="skills__item" key={`${item}_${index}`}>
                   {item}
                 </li>
               ))}
@@ -62,8 +63,8 @@ function PersonProfile({ obj }) {
             <h3 className="resume__title">Образование</h3>
             <ul className="resume__educational educational">
               {obj.education &&
-                obj.education.map((item) => (
-                  <li className="educational__item">
+                obj.education.map((item, index) => (
+                  <li className="educational__item" key={`${item}_${index}`}>
                     <p className="educational__dates">{item.dates}</p>
                     <p className="educational__place">
                       {item.university}
@@ -80,8 +81,8 @@ function PersonProfile({ obj }) {
             <h3 className="resume__title">Опыт работы</h3>
             <ul className="resume__experience experience">
               {obj.experience &&
-                obj.experience.map((item) => (
-                  <li className="experience__item">
+                obj.experience.map((item, index) => (
+                  <li className="experience__item" key={`${item}_${index}`}>
                     <p className="experience__dates">{item.dates}</p>
                     <div className="experience__inf">
                       <p className="experience__company">{item.company}</p>
@@ -158,28 +159,48 @@ function PersonProfile({ obj }) {
             </a>
           </div>
           <ul className="resume__social social">
-            <li className="social__item">
-              <a href="" className="social__link" target="_blank">
+            <li
+              className={classNames('social__item', {
+                desabled: !obj.socials.github,
+              })}
+            >
+              <a href={obj.socials.github} className="social__link" target="_blank">
                 <img src={github} alt="" />
               </a>
             </li>
-            <li className="social__item">
-              <a href="" className="social__link" target="_blank">
+            <li
+              className={classNames('social__item', {
+                desabled: !obj.socials.linkedin,
+              })}
+            >
+              <a href={obj.socials.linkedin} className="social__link" target="_blank">
                 <img src={linkedin} alt="" />
               </a>
             </li>
-            <li className="social__item">
-              <a href="" className="social__link" target="_blank">
+            <li
+              className={classNames('social__item', {
+                desabled: !obj.socials.whatsapp,
+              })}
+            >
+              <a href={obj.socials.whatsapp} className="social__link" target="_blank">
                 <img src={whatsapp} alt="" />
               </a>
             </li>
-            <li className="social__item">
-              <a href="" className="social__link" target="_blank">
+            <li
+              className={classNames('social__item', {
+                desabled: !obj.socials.telegram,
+              })}
+            >
+              <a href={obj.socials.telegram} className="social__link" target="_blank">
                 <img src={telegram} alt="" />
               </a>
             </li>
-            <li className="social__item">
-              <a href="" className="social__link" target="_blank">
+            <li
+              className={classNames('social__item', {
+                desabled: !obj.socials.viber,
+              })}
+            >
+              <a href={obj.socials.viber} className="social__link" target="_blank">
                 <img src={viber} alt="" />
               </a>
             </li>
