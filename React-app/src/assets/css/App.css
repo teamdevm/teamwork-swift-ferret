@@ -702,6 +702,10 @@ a.contacts__item:hover {
   margin-top: 20px;
 }
 
+.social__item.desabled {
+  opacity: 0.2;
+}
+
 .social__item img {
   max-width: 36px;
 }
@@ -710,7 +714,7 @@ a.contacts__item:hover {
   transition: transform 0.3s ease-in-out;
 }
 
-.social__item:hover {
+.social__item:not(.desabled):hover {
   transform: scale(1.1);
 }
 
