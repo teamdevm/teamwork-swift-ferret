@@ -1,13 +1,13 @@
 import React from 'react';
 import classNames from 'classnames';
 
-function FilterCheckbox({ title, items, allSelectedItems }) {
+function FilterText({ title, items, type, allSelectedItems }) {
   let beginObject = {};
   for (let item of items) {
-    beginObject[item] = false;
+    beginObject[item] = '';
   }
 
-  const [visibleItem, setVisibleItem] = React.useState(false);
+  const [visibleItem, setVisibleItem] = React.useState();
   const [selectedItems, setSelectedItems] = React.useState(beginObject);
 
   const toggleVisibleItem = () => {
@@ -15,7 +15,7 @@ function FilterCheckbox({ title, items, allSelectedItems }) {
   };
 
   const onSelectItem = (item) => {
-    selectedItems[item.name] = item.checked;
+    selectedItems[item.name] = item.value;
     setSelectedItems(selectedItems);
     allSelectedItems(selectedItems);
   };
@@ -47,20 +47,22 @@ function FilterCheckbox({ title, items, allSelectedItems }) {
         })}
       >
         {items.map((item) => (
-          <label className="filter__label" key={item}>
+          <div key={item}>
+            <label className="filter__label" htmlFor={item}>
+              {item}:
+            </label>
             <input
-              type="checkbox"
-              className="filter__input input-checkbox"
+              className="filter__input"
+              type={type}
+              id={item}
               name={item}
-              key={item}
               onChange={(e) => onSelectItem(e.target)}
             />
-            <span>{item}</span>
-          </label>
+          </div>
         ))}
       </div>
     </fieldset>
   );
 }
 
-export default FilterCheckbox;
+export default FilterText;

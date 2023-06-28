@@ -1,105 +1,99 @@
 import React from 'react';
-
-import { Filters, PersonCard, SortPopup } from '../components/index';
 import data from '../assets/data.json';
+import { Filters, PersonCard, SortPopup } from '../components/index';
 
 function Home() {
-  const [persons, setPersons] = React.useState([]);
+  const [persons, setPersons] = React.useState(data.persons);
   const [selectedSort, setSelectedSort] = React.useState('');
 
-  React.useEffect(() => {
-    // fetch('../assets/data.json')
-    //   .then((resp) => resp.json())
-    //   .then((json) => setPersons(json.persons));
-    setPersons(data.persons);
-  }, []);
+  const [filteredPersons, setFilteredPersons] = React.useState(persons);
+
+  const allValuesFilters = { city: [], status: [], vacancy: [], university: [], skills: [] };
 
   const sortPosts = (sort) => {
     setSelectedSort(sort);
-    setPersons([...persons].sort((a, b) => a[sort].localeCompare(b[sort])));
+    setFilteredPersons([...filteredPersons].sort((a, b) => a[sort].localeCompare(b[sort])));
   };
 
-  // async function connect() {
-  //   fetch('http://localhost:5000/emploee')
-  //     .then((response) => response)
-  //     .then((commits) => console.log(commits));
-  // }
+  persons.forEach((person) => {
+    for (let field in person) {
+      if (field === 'vacancy' || field === 'skills') {
+        person[field].split(', ').forEach((item) => {
+          if (!allValuesFilters[field].includes(item)) allValuesFilters[field].push(item);
+        });
+      }
 
-  // const addPerson = () => {
-  //   let newElem = {
-  //     name: 'Рябова Полина Игоревна',
-  //     age: 20,
-  //     sex: 'female',
-  //     email: 'polinarybova.2@gmail.com',
-  //     phone: '+79194997504',
-  //     birthdate: '19.12.2002',
-  //     country: 'РФ',
-  //     city: 'Пермь',
-  //     status: 'отправка оффера',
-  //     skills: 'Angular, C#, CSS',
-  //     education: [
-  //       {
-  //         dates: '2020 - 2024',
-  //         university: 'ПГНИУ',
-  //         faculty: 'механико-математический факультет',
-  //         specialization: 'фундаментальная информатика и информационные технологии',
-  //       },
-  //     ],
+      if (field === 'education') {
+        for (let item of person[field]) {
+          if (
+            !allValuesFilters['university'].includes(item.university) &&
+            item.university !== undefined
+          )
+            allValuesFilters['university'].push(item.university);
+        }
+      }
 
-  //     vacancy: 'React разработчик',
-  //   };
-  //   setPersons([...persons, newElem]);
-  //   fetch('http://localhost:3000/teamwork-swift-ferret/data.json', {
-  //     method: 'post',
-  //     headers: {
-  //       'Content-Type': 'application/json;charset=utf-8',
-  //     },
-  //     body: JSON.stringify(persons),
-  //   });
-  // };
+      if (field === 'status' || field === 'city') {
+        if (!allValuesFilters[field].includes(person[field]))
+          allValuesFilters[field].push(person[field]);
+      }
+    }
+  });
+
+  const filterPosts = (selectedFields) => {
+    setFilteredPersons(
+      [...persons].filter((item) => {
+        let statusIsOk = true,
+          cityIsOk = true,
+          universityIsOk = true,
+          vacancyIsOk = true,
+          sexIsOk = true;
+        if (needToCheck(selectedFields.status))
+          statusIsOk = (item.status && selectedFields.status[item.status]) || false;
+
+        if (needToCheck(selectedFields.university)) {
+          let allUni = [];
+          item.education.forEach((educat) => {
+            allUni.push(educat.university);
+          });
+          universityIsOk = false;
+          allUni.forEach((itemUni) => {
+            if (selectedFields.university[itemUni]) universityIsOk = true;
+          });
+        }
+
+        if (needToCheck(selectedFields.city))
+          cityIsOk = (item.city && selectedFields.city[item.city]) || false;
+
+        if (needToCheck(selectedFields.vacancy)) {
+          vacancyIsOk = false;
+          item.vacancy.split(', ').forEach((itemVacancy) => {
+            if (selectedFields.vacancy[itemVacancy]) vacancyIsOk = true;
+          });
+        }
+
+        if (needToCheck(selectedFields.sex)) {
+          sexIsOk = (item.sex && selectedFields.sex[item.sex]) || false;
+        }
+        return statusIsOk && cityIsOk && vacancyIsOk && sexIsOk && universityIsOk;
+      })
+    );
+  };
+
+  const needToCheck = (fieldToCheck) => {
+    if (fieldToCheck === undefined) return false;
+    else
+      for (let elem in fieldToCheck) {
+        if (fieldToCheck[elem] === true) return true;
+      }
+    return false;
+  };
 
   return (
     <main className="main">
       <div className="main__container container">
-        {/* <button className="button" onClick={connect}>
-          соединиться
-        </button> */}
-        {/* <button className="button" onClick={change}>
-          добавить
-        </button> */}
         <section className="main__settings">
-          <div className="main__find-count">Найдено: {persons.length}</div>
-          {/* <div className="main__select">
-            <label className="main__label">
-              <input
-                type="checkbox"
-                className="main__input input-checkbox"
-                name="select all"
-                value="all"
-              />
-              <span>Выбрать всех</span>
-            </label>
-            <button className="main__btn">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="lucide lucide-file-input"
-              >
-                <path d="M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v4" />
-                <polyline points="14 2 14 8 20 8" />
-                <path d="M2 15h10" />
-                <path d="m9 18 3-3-3-3" />
-              </svg>
-              Выгрузить в Exel
-            </button>
-          </div> */}
+          <div className="main__find-count">Найдено: {filteredPersons.length}</div>
           <SortPopup
             value={selectedSort}
             onChange={sortPosts}
@@ -120,11 +114,14 @@ function Home() {
           />
         </section>
         <div className="main__center-part">
-          <Filters />
+          <Filters
+            values={allValuesFilters}
+            onChange={(selectedFields) => filterPosts(selectedFields)}
+          />
           <section className="main__content content">
             <h2 className="main__title">Кандидаты</h2>
             <div className="main__candidate-cards candidate-cards">
-              {persons.map((person, index) => (
+              {filteredPersons.map((person, index) => (
                 <PersonCard key={`${person.name}_${index}`} obj={person} />
               ))}
             </div>
