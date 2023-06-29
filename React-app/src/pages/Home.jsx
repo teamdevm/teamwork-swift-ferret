@@ -8,7 +8,7 @@ function Home() {
 
   const [filteredPersons, setFilteredPersons] = React.useState(persons);
 
-  const allValuesFilters = { city: [], status: [], vacancy: [], university: [], skills: [] };
+  const allValuesFilters = { city: [], status: [], vacancy: [], university: [] };
 
   const sortPosts = (sort) => {
     setSelectedSort(sort);
@@ -17,7 +17,7 @@ function Home() {
 
   persons.forEach((person) => {
     for (let field in person) {
-      if (field === 'vacancy' || field === 'skills') {
+      if (field === 'vacancy') {
         person[field].split(', ').forEach((item) => {
           if (!allValuesFilters[field].includes(item)) allValuesFilters[field].push(item);
         });
