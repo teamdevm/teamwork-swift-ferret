@@ -5,6 +5,7 @@ import { Filters, PersonCard, SortPopup } from '../components/index';
 function Home() {
   const [persons, setPersons] = React.useState(data.persons);
   const [selectedSort, setSelectedSort] = React.useState('');
+  const [visibleFilter, setVisibleFilter] = React.useState(false);
 
   const [filteredPersons, setFilteredPersons] = React.useState(persons);
 
@@ -89,11 +90,38 @@ function Home() {
     return false;
   };
 
+  const toggleVisiblefilter = () => {
+    setVisibleFilter(!visibleFilter);
+  };
+
   return (
     <main className="main">
       <div className="main__container container">
         <section className="main__settings">
           <div className="main__find-count">Найдено: {filteredPersons.length}</div>
+          <button className="main__open-filter-btn" onClick={toggleVisiblefilter}>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <line x1="21" x2="14" y1="4" y2="4" />
+              <line x1="10" x2="3" y1="4" y2="4" />
+              <line x1="21" x2="12" y1="12" y2="12" />
+              <line x1="8" x2="3" y1="12" y2="12" />
+              <line x1="21" x2="16" y1="20" y2="20" />
+              <line x1="12" x2="3" y1="20" y2="20" />
+              <line x1="14" x2="14" y1="2" y2="6" />
+              <line x1="8" x2="8" y1="10" y2="14" />
+              <line x1="16" x2="16" y1="18" y2="22" />
+            </svg>
+          </button>
           <SortPopup
             value={selectedSort}
             onChange={sortPosts}
@@ -114,10 +142,12 @@ function Home() {
           />
         </section>
         <div className="main__center-part">
-          <Filters
-            values={allValuesFilters}
-            onChange={(selectedFields) => filterPosts(selectedFields)}
-          />
+          {visibleFilter ? (
+            <Filters
+              values={allValuesFilters}
+              onChange={(selectedFields) => filterPosts(selectedFields)}
+            />
+          ) : null}
           <section className="main__content content">
             <h2 className="main__title">Кандидаты</h2>
             <div className="main__candidate-cards candidate-cards">

@@ -20,6 +20,10 @@ function PersonProfile({ obj }) {
           <img className="resume__photo" src={obj.photo || defaultPhoto} />
           <div className="resume__main-info">
             <p className="resume__name">{obj.name}</p>
+            <p className="resume__vacancy">
+              Возраст: {obj.age}, пол: {obj.sex.toLowerCase()}
+            </p>
+
             <p className="resume__vacancy">{obj.vacancy}</p>
             <div className="resume__hiring">
               <StatusPopup
