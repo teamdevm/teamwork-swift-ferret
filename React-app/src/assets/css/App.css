@@ -922,7 +922,7 @@ a.contacts__item:active {
 /* //////////////////////////////////////// */
 /* //////////////////////////////////////// */
 
-@media (max-width: 400px) {
+@media (max-width: 550px) {
   .button {
     font-size: 14px;
   }
@@ -966,6 +966,10 @@ a.contacts__item:active {
     font-size: 12px;
   }
 
+  .candidate-cards {
+    justify-content: space-evenly;
+  }
+
   .candidate-card {
     width: 140px;
     font-size: 10px;
@@ -996,6 +1000,10 @@ a.contacts__item:active {
 
   .main__resume {
     margin-top: 20px;
+  }
+
+  .resume__vacancy {
+    text-align: center;
   }
 
   .resume__top-block {
